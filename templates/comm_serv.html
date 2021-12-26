@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects - Community Services App</title>
+    <link rel = "stylesheet" href = "../static/project.css">
+</head>
+
+<body>
+    <div class = "mainImgContainer">
+        <img src = "/Users/aditikisara/Documents/GitHub/Portfolio/image/food_mainImg.jpg" class = "mainImg">
+        <div class = "title">
+            <h1>Community Services App</h1>
+        </div>
+
+        <div class = "learn">
+            <p>More Info</p>
+        </div>
+
+        <div class = "arrow">
+            <a href = "#info"><span></span></a>
+        </div>
+    </div>
+
+    <div class = "info", id = "info">
+        <p>
+            For our Database Systems project, my colleague and I created a webapp filled with resources for people in underserved 
+            communities. We gathered data from Google and created our own database from scratch. Our app consists of six services:
+            <ul>
+                <li>Food Pantries</li>
+                <li>Clothing Banks</li>
+                <li>Soup Kitchens</li>
+                <li>Medical Assistance Services</li>
+                <li>Daycare Services</li>
+                <li>Homeless Shelters</li>
+            </ul> 
+            Each of those services has the following information stored.
+            <ul>
+                <li>Service Name</li>
+                <li>Address</li>
+                <li>State</li>
+                <li>City</li>
+                <li>County</li>
+                <li>Zipcode</li>
+                <li>Phone Number</li>
+                <li>Days/Times Available</li>
+                <li>Website URL</li>
+            </ul> 
+            Users have the ability to find services based on its city, county and zip code, the managers at each service, and the 
+            customers that are subscribed to each service.
+
+            <br><br>
+
+            We didn't want regular users to be able to make major changes to our database, so we created the role of "admin". The 
+            purpose of the admin is to edit/delete managers or users. That way, changes made to the database are secure. Currently 
+            the only admins are my colleague and me.
+
+            <br><br>
+
+            When a user first visits our website, they are directed to our main menu, where they have the options to view all of our 
+            databases, find places that offer a specific service, or search for a subscriber or manager and view the services they 
+            are affiliated with. At any time, the user can go back to the main menu. An admin can perform the same operations, with 
+            the added ability to edit a subscriber or manager's information. When they click the "edit records" option, they are 
+            directed to a login page, where they can input their credentials. If their input is correct, they can choose to edit a 
+            subscriber or manager's name, email, or phone number.
+
+            <br><br>
+
+            We used HTML and CSS to create the pages and Flask (a Python library) to navigate through them. Our database is handled 
+            through SQLite, which allows us to easily make changes.
+
+            <br><br>
+
+            Visit our website below to view the full capabilities of our project. Any related 
+            diagrams (Entity Relationship Diagram, Relational Schema, and Use-Case Diagram) can be found in our slides embedded in 
+            the About page.
+        </p>
+        <div class = "website">
+            <a href = "https://nightraven.pythonanywhere.com/"><button>Our website!</button></a>
+        </div>
+    </div>
+
+    <div class = "video">
+        <h1>Project Demo</h1>
+        <iframe width="560" height="315" style = "padding: 5px; border: 5px solid #674b94;" src="https://www.youtube.com/embed/3Esg5ZAZu18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class = "links">
+        <a href = "main.html#projects"><button>Go Back</button></a>
+        <table>
+            <tr>
+                <td><a href = "https://github.com/aditikisara/Collaborated-Projects"><img src = "/Users/aditikisara/Documents/GitHub/Portfolio/image/github.png"></a></td>
+                <td><a href = "https://www.linkedin.com/in/aditi-kisara-27bb1a1a9/"><img src = "/Users/aditikisara/Documents/GitHub/Portfolio/image/linkedin.png"></a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
