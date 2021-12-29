@@ -1,5 +1,3 @@
 # Welcome to my Portfolio!
 
-Visit the following website to view my portfolio.
-
-aditikisara.github.io
+Visit [this website](aditikisara.github.io) to view my portfolio.
