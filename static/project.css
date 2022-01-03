@@ -131,3 +131,10 @@ button:hover {
     width: 30px;
     height: 30px;
 }
+
+iframe {
+    width: 560px;
+    height: 315px;
+    padding: 5px;
+    border: 5px solid #674b94;
+}
