@@ -163,6 +163,8 @@ body {
 .links table {
     text-align: center;
     margin: auto;
+    color: white;
+    font-weight: lighter;
 }
 
 .links img {

@@ -105,6 +105,11 @@ button:hover {
     height: 40px;
 }
 
+.info {
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
 .website {
     text-align: center;
 }
@@ -119,6 +124,8 @@ button:hover {
 .links {
     background-color: #674b94;
     padding: 2%;
+    color: white;
+    font-weight: lighter;
 }
 
 .links table, tr, td {
