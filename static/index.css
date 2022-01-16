@@ -111,6 +111,11 @@ body {
     width: 20%;
 }
 
+#sec {
+    color: #674b94;
+    letter-spacing: 1px;
+}
+
 .projects {
     text-align: center;
     margin: auto;
@@ -154,6 +159,11 @@ body {
     /* border: 1px solid black; */
     width: 50%;
     padding: 20px;
+}
+
+#cap {
+    color: #674b94;
+    letter-spacing: 1px;
 }
 
 .links {
