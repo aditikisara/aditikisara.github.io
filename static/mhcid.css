@@ -1,0 +1,156 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    background-color: #674b94;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mainImgContainer {
+    position: relative;
+    border: 0px;
+    text-align: center;
+}
+
+.mainImg {
+    width: 100%;
+    height: 800px;
+    border: 0px;
+    object-fit: cover;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: lighter;
+    font-size: xx-large;
+    color: white;
+}
+
+h1 {
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.title p {
+    letter-spacing: 5px;
+}
+
+.learn {
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+/* Scroll Down Arrow */
+
+.arrow{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+}
+
+.arrow span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+}
+
+.arrow span:hover {
+    animation: animate 1s;
+}
+
+@keyframes animate {
+    0%, 100% {
+        transform: rotate(45deg) translate(0px,0px);
+    }
+
+    50% {
+        transform: rotate(45deg) translate(5px,5px);
+    }
+}
+
+/* End of scroll */
+
+p {
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.links {
+    background-color: #674b94;
+    padding: 2%;
+    color: white;
+    font-weight: lighter;
+}
+
+.links table, tr, td {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.links img {
+    width: 30px;
+    height: 30px;
+}
+
+.links button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: #674b94;
+    border-style: solid;
+    border: 1px solid white;
+}
+
+.links button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.classOpt table, tr, td {
+    text-align: center;
+    margin: auto;
+}
+
+.classOpt p {
+    color:#674b94;
+}
+
+.classOpt button {
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    color:  #674b94;
+    border-style: solid;
+    border: 1px solid white;
+}
+
+button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+img {
+    height: 300px;
+    width: 250px;
+}
