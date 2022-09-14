@@ -154,3 +154,7 @@ img {
     height: 300px;
     width: 250px;
 }
+
+table {
+    margin: auto;
+}
