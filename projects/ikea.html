@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aditi Kisara - Projects - IKEA User Experience Evaluation</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../css/individual_project.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Nav -->
+    <div class="row container-fluid" id="header_nav">
+        <div class="col-3">
+            <p><a href="../index.html">Home</a></p>
+        </div>
+        <div class="col-3">
+            <p><u>Projects</u></p>
+        </div>
+        <div class="col-3">
+            <p><a href="../resume.html">Resume</a></p>
+        </div>
+        <div class="col-3">
+            <p><a href="../about.html">About</a></p>
+        </div>
+    </div>
+
+    <hr style="width: 90%; margin: auto; color: rgb(150, 150, 150)">
+
+    <!-- Project Selection Sidebar -->
+    <div class="row container-fluid">
+        <div class="col-sm-2 container-fluid" id="sidebar">
+            <div class="row project_options">
+                <a href="code.html">Code.org on the Go</a>
+            </div>
+                
+            <div class="row project_options">
+                <a href="reversi.html">Reversi</a>
+            </div>
+        
+            <div class="row project_options" id="selected">
+                <a href="ikea.html">IKEA User Experience Evaluation</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="hearmeout.html">Hear Me Out</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="savable.html">Savable</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="carebot.html">Carebot</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="comm.html">Community Services App</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="taskmanager.html">Task Manager</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="cow.html">Cow Detection Software</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="hangman.html">Hangman</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="ttt.html">Tic-Tac-Toe</a>
+            </div> 
+        </div>
+
+        <!-- Main Content -->
+        <div class="col container-fluid" id="content">
+            <h3 id="title">IKEA User Experience Evaluation</h3>
+            <p id="subtitle"><i>A user analysis of IKEA's website</i></p>
+            <img class="img-fluid main_img" src="../images/homepage/ikea_home.png"/>
+            <div class="row">
+                <div class="col" style="margin: 10px 10px 10px 0px;">
+                    <h5>My Role(s)</h5>
+                    <p>
+                        UX Researcher
+                    </p>
+                </div>
+                <div class="col" style="margin: 10px 0px 10px 10px;">
+                    <h5>External Links</h5>
+                    <p style="color: gray;"><i>There are no external links for this project.</i></p>
+                </div>
+            </div>
+
+            <br>
+            <h5>Introduction</h5>
+            <p>
+                Ikea is a global leading brand for affordable home goods. In fact, there are 460 IKEA stores 
+                in 62 markets globally. Their website plays a crucial role in catering it to its online 
+                shoppers. As such, it is imperative that the website is user-friendly, efficient, and 
+                effective in providing the optimal shopping experience. To ensure the website’s success, 
+                our team of UX experts conducted several user evaluations over the course of three months 
+                based on how well participants could find a specific chair.
+
+                <br><br>
+
+                Overall, our findings were focused on four specific areas.
+
+                <div class="row container-fluid ikea_blocks">
+                    <div class="col">
+                        <p>System Visibility</p>
+                    </div>
+                    <div class="col">
+                        <p>Navigation Hierarchy</p>
+                    </div>
+                    <div class="col">
+                        <p>Error Recovery</p>
+                    </div>
+                    <div class="col">
+                        <p>Smarter Searching</p>
+                    </div>
+                </div>
+            </p>
+
+            <br>
+            <h5>Expert Evaluation</h5>
+            <h6>Approach</h6>
+            <p>
+                We conducted a heuristic evaluation using Jakob Nielsen’s 10 Heuristics to identify potential 
+                usability issues in IKEA's website. We focused on the Home, Product, Search Results, and 
+                Sidebar pages.
+                <table id="ikea_pages">
+                    <tr>
+                        <td>
+                            <img class="img-fluid" src="../images/projects/ikea/home.png"/>
+                            <p class="caption">Home page</p>
+                        </td>
+                        <td>
+                            <img class="img-fluid" src="../images/projects/ikea/product.png"/>
+                            <p class="caption">Product page</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="img-fluid" src="../images/projects/ikea/search.png"/>
+                            <p class="caption">Search page</p>
+                        </td>
+                        <td>
+                            <img class="img-fluid" src="../images/projects/ikea/sidebar.png"/>
+                            <p class="caption">Cart sidebar</p>
+                        </td>
+                    </tr>
+                </table>
+            </p>
+
+            <h6>Summary of Findings</h6>
+            <p>
+                Through our heuristic evaluation, we identified the following:
+            </p>
+            <p>
+                <b>To improve system visibility:</b>
+                <ul>
+                    <li>
+                        Adding a pull-down bar for the shopping menu to see items in cart without having to redirect to another page.
+                    </li>
+                    <li>
+                        Saving the previously compared items while the user is still actively shopping.
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <b>To reduce user errors:</b>
+                <ul>
+                    <li>
+                        Highlighting error messages in red to make them stand out.
+                    </li>
+                    <li>
+                        Suggesting products that the user might have mean after an error in search results.
+                    </li>
+                    <li>
+                        Adding a confirmation page after users add items to their cart.
+                    </li>
+                    <li>
+                        Giving users more control over advanced filtering and search parameters.
+                    </li>
+                </ul>
+            </p>
+
+            <br>
+            <h5>Competitive Analysis</h5>
+            <h6>Approach</h6>
+            <p>
+                Following the expert evaluation, we determined it would be valuable to audit the digital shopping experience of 
+                IKEA’s direct and indirect competitors.
+
+                <br><br>
+
+                The competitor evaluation revealed areas IKEA is outperforming their competitors as well as opportunities to learn 
+                from the best practices of these competitors. We believe that implementing the recommendations provided in this 
+                report will improve the digital shopping experience for IKEA customers leading to increased revenue and higher 
+                customer loyalty for IKEA. 
+            </p>
+            <table id="comp_analysis">
+                <thead id="main_table_heading">
+                    <tr>
+                        <th>Competitor</th>
+                        <th>Who are they?</th>
+                        <th>Pros from evaluation</th>
+                        <th>Recommendations for IKEA</th>
+                    </tr>
+                </thead>
+
+                <thead class="table_subheading">
+                    <tr>
+                        <th colspan="4">Direct Competitors</th>
+                    </tr>
+                </thead>
+                
+                <tr>
+                    <td class="competitors">
+                        <img class="img-fluid" src="../images/projects/ikea/logo_amazon.png"/>
+                    </td>
+                    <td>
+                        Amazon.com Inc (Amazon) is an online retailer and web service provider. The company provides products such as apparel, auto and industrial items, beauty and health products, electronics, grocery, books, games, jewelry, kids and baby products, movies, music, sports goods, toys, tools and other related products.
+                    </td>
+                    <td>
+                        <b>Visibility of System Status:</b> Amazon's interface features a clear and easy-to-use navigation menu, and useful searching recommendation list on detailed product browser.
+                        <br><br>
+                        <b>Personalization:</b> Amazon's interface leverages user data to provide personalized recommendations, such as product suggestions based on browsing and purchasing history. 
+                        <br><br>
+                        <b>Checkout Process:</b> Amazon's checkout process is designed to be quick and efficient, with options for one-click purchasing and saved payment and shipping information. This reduces the friction of purchasing and encourages users to complete their transactions.
+                    </td>
+                    <td>
+                        <b>Search functionality improvements</b> such as recommendation list or spelling correction could help shoppers find products easier.
+
+                        <br><br>
+
+                        <b>Reduce the friction of the checkout process</b> with clear indication of items added to the cart, option to continue shopping and consider one-click purchasing.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="competitors">
+                        <img class="img-fluid" src="../images/projects/ikea/logo_wayfair.png"/>
+                    </td>
+                    <td>
+                        Wayfair is an e-commerce company that specializes in selling furniture, home goods, decor, and other related products online. Wayfair operates primarily through its website, offering a wide range of products from thousands of suppliers. The company provides customers with a broad selection of products across different styles and price points, making it a popular choice for consumers looking for furniture and home decor.
+                    </td>
+                    <td>
+                        <b>Image Quality:</b> Wayfair provides high-quality images and videos for its products, which give customers a clear idea of what they are purchasing.
+                        <br><br>
+                        <b>Simple Categorization:</b> Header navigation & high-level filters on the product pages provide shortcuts to help what users might be and are looking for.
+                        <br><br>
+                        <b>Personalization:</b> Wayfair's website provides personalized product recommendations to customers based on their browsing and purchase history, which helps to improve their user experience and increase the likelihood of repeat purchases.
+                    </td>
+                    <td>
+                        <b>Utilize personalization</b> for a catered experience - giving product recommendation based on search history and related product suggestions once they have added an item to their cart could improve user experience and lead to additional purchases.
+                    </td>
+
+
+
+                <thead class="table_subheading">
+                    <th colspan="4">Indirect Competitors</th>
+                </thead>
+
+                <tr>
+                    <td class="competitors">
+                        <img class="img-fluid" src="../images/projects/ikea/logo_target.png"/>
+                    </td>
+                    <td>
+                        As a top retail company, Target has employed innovative methods to stay current through the years, strengthening its digital presence in combination with its in-store experience. 
+                        
+                        <br><br>
+
+                        E-commerce plays a significant role for both Target and IKEA. Elevating IKEA’s online experience will increase customer engagement, further strengthening its relationship with customers. 
+                    </td>
+                    <td>
+                        <b>Customer Engagement:</b> Target does well to keep up with trends and partnerships its loyal customers want to see.
+                        <br><br>
+                        <b>Provides in-store level of experience:</b> Target has seamlessly integrated its digital capabilities with its physical stores through services like Drive Up and Pick Up In-Store.
+                    </td>
+                    <td>
+                        IKEA has made efforts to <b>keep up with trends and create collaborations and unique offerings</b> for their customers. Continuing this will set them apart from other home good and furniture retailers.
+                        <br><br>
+                        <b>Look for more ways to connect customer digital interactions with in-store experience.</b> IKEA has done some with their “Shop & Go” feature in the IKEA app.
+                    </td>
+
+                <thead class="table_subheading">
+                    <th colspan="4">Influencer</th>
+                </thead>
+
+                <tr>
+                    <td class="competitors">
+                        <img class="img-fluid" src="../images/projects/ikea/logo_lego.png"/>
+                    </td>
+                    <td>
+                        Founded in 1932 by Ole Kirk Kristiansen, “LEGO” the short hand for the Danish phrase “leg godt”, translated to “play well”, is one of the largest toy manufacturers in the world. Launched in 1958, the LEGO brick is one of their most well known products and has been designated “Toy of the Century” twice.
+                        
+                        <br><br>
+                        
+                        Both Lego and Ikea offer products that are shipped in multiple pieces, having to instruct the user how all the pieces of the puzzle fit together to achieve the desired outcome and optimal use.
+                    </td>
+                    <td>
+                        <b>Flexibility and Efficiency of Use:</b> On the homepage, Lego automatically populates lego set recommendations tailored to your past search history.
+                        <br><br>
+                        <b>Flexibility and Efficiency of Use:</b> Number of pieces and user age recommendation reveal difficulty level of build.
+                    </td>
+                    <td>
+                        <b>IKEA could cater the product pages to their customers more</b> with items based on previous searches or profile information about customers.
+                        <br><br>
+                        <b>Consider providing indications of the difficulty of assembly for IKEA products.</b> This would better inform the customer and could mitigate frustrations with harder to assemble items. 
+                    </td>
+                </tr>
+            </table>
+
+            <br><br>
+            <h6>Focus Areas</h6>
+            <p>
+                Due to the scope of our project and limited time, we focused our efforts on the following issues:
+                
+                <div class="row ikea_blocks">
+                    <div class="col">
+                        <p>
+                            <b>User control and freedom</b>
+                            <br><br>
+                            The website does not make it easy to view items in shopping bag, forcing the user to navigate to a new page in order to see the items they have added.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            <b>Clear context design</b>
+                            <br><br>
+                            IKEA’s product filter does not provide a clear indication of the active filters, leaving users confused as to which filters they have selected.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            <b>Visibility and hierarchy</b>
+                            <br><br>
+                            The poor information architecture in the menu leads to longer search times.
+                            <br><br>
+                            Viewing the shopping cart takes too many unnecessary steps
+                        </p>
+                    </div>
+                </div>
+            </p>
+
+            <br>
+            <h5>User Research</h5>
+            <h6>Card Sorting #1</h6>
+            <p>
+                We conducted two separate card sorts to tackle different focus areas. 
+
+                <br><br>
+                
+                The goal of the first card sort was to improve product recommendations based on users' searches, and to benchmark the current UI of the IKEA 
+                website. We used Optimal Workshop to conduct a closed card sorting activity. This activity involved grouping product types (e.g. armchairs) 
+                with other product types users consider similar into designated product categories. The product types and product categories were taken from 
+                IKEA's website.
+
+                <br><br>
+
+                <img class="img-fluid" src="../images/projects/ikea/cs1.png" style="width: 50%; height: auto;"/>
+                <p class="caption">Card Sort #1 - Participant information</p>
+
+                We used a standardization grid that showed how participants grouped items into different categories. Each row is an item that 
+                participants sorted. The columns show the different groups they sorted them into. The numbers in each cell represent how many people grouped 
+                that particular item in that specific category. In other words, products grouped consistently in the same category shows that users see 
+                similarities between these products.
+
+                <br><br>
+                
+                <img class="img-fluid" src="../images/projects/ikea/cs1_grid.png" style="border: 3px solid #31025E; border-radius: 10px; width: 50%; height: auto;"/>
+                <p class="caption">Card Sort #1 - Standardization Grid</p>
+
+                This information was then cross-referenced with IKEA's current website. For instance, 11 out of 13 participants placed "Armchairs" into the 
+                "Armchairs and Accent Chairs" category. On IKEA's website, armchairs can be found in the same category. While many items were sorted accurately 
+                based on intuition, there were some discrepancies between our data and what we saw on IKEA's website. One example of this is how participants 
+                sorted "Benches". Only 1 out of out 13 participants sorted this into the "Storage and Organization" category. However, when users searched for 
+                benches on IKEA's website, one of the top categories for its search result was "Storage and Organization".
+
+                <br><br>
+
+                <img class="img-fluid" src="../images/projects/ikea/cs1_armchairs.png" style="border: 3px solid #31025E; border-radius: 10px; width: 50%; height: auto;"/>
+                <p class="caption">IKEA's Website - Armchairs are found with other armchairs and accent chairs</p>
+
+                <br>
+
+                <img class="img-fluid" src="../images/projects/ikea/cs1_storage.png" style="border: 3px solid #31025E; border-radius: 10px; width: 50%; height: auto;"/>
+                <p class="caption">IKEA's Website - When searching for "benches", many search results are from the "Storage and Organization" category</p>
+            </p>
+
+            <br>
+            <h6>Card Sorting #2</h6>
+            <p>
+                The goal of the second card sort was to improve the navigation in the menu to make searching easier, and to benchmark the current UI of the IKEA 
+                website. We used Optimal Workshop to conduct a hybrid card sorting activity. This activity involved categorizing items from the hamburger menu 
+                into predetermined groups. Participants also had the option to add their own categories as they see fit.
+
+                <br><br>
+
+                <img class="img-fluid" src="../images/projects/ikea/cs1.png" style="width: 50%; height: auto;"/>
+                <p class="caption">Card Sort #2 - Participant information</p>
+
+                For Card Sort #2, we looked at the hamburger menu on IKEA's website. We took each menu item and had participants sort them through categories we 
+                came up with. Participants also had the option to create their own categories. We then had them rank these categories based on how important they 
+                felt it was. The screenshot below shows the average position number participants ranked each category in.
+
+                <br><br>
+
+                <img class="img-fluid" src="../images/projects/ikea/cs2_ranks.png" style="border: 3px solid #31025E; border-radius: 10px; width: 50%; height: auto;"/>
+                <p class="caption">Card Sort #2 - How participants ranked categories of the menu items</p>
+
+                On average, users want to see options relating to Products or their Account on top. However, in IKEA's current menu bar, anything relating to 
+                Accounts is at the very bottom in the smallest text.
+
+                <br><br>
+
+                <img class="img-fluid" src="../images/projects/ikea/cs2_menu.png" style="border: 3px solid #31025E; border-radius: 10px; width: 50%; height: auto;"/>
+                <p class="caption">IKEA's Website - Hamburger Menu</p>
+
+                Here's a standardization grid for this card sort. This grid gives us more information as to how each menu item is categorized.
+
+                <br><br>
+
+                <img class="img-fluid" src="../images/projects/ikea/cs2_grid.png" style="border: 3px solid #31025E; border-radius: 10px; width: 50%; height: auto;"/>
+                <p class="caption">Card Sort #2 - How participants grouped menu items</p>
+            </p>
+
+            <br>
+            <h6>Qualitative Usability Testing</h6>
+            <p>
+                We conducted 3 user testing sessions with previous IKEA customers from the US and UK who are familiar with the in-store IKEA experience. Using 
+                UserTesting.com, we conducted live, unmoderated tests to collect verbal and rating-scale responses. We then analyzed these sessions and organized 
+                this data to identify key themes and patterns.
+
+                <br><br>
+
+                <b>The goals of this test were to:</b>
+                <ol>
+                    <li>Understand first impressions of the IKEA website</li>
+                    <li>Uncover user expectations of product searches</li>
+                    <li>Learn how users interact with their shopping bag</li>
+                </ol>
+
+                Overall, there were three main insights we found.
+
+                <table id="ikea_insights">
+                    <thead>
+                        <th>Insight</th>
+                        <th>Supporting Quotes from Participants</th>
+                    </thead>
+                    <tr>
+                        <td>The user is unsure which menu item will lead them to the product they are searching for.</td>
+                        <td class="ikea_qual_quotes">
+                            "Why isn’t 'chairs' listed on the menu? The categories are a bit confusing.”
+                            <br><br>
+                            “I couldn’t find chairs from the homepage, so I used the search bar to look for chairs instead.”
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>The products listed in the search results page do not match the user’s expectations.</td>
+                        <td class="ikea_qual_quotes">
+                            “I set the color filter to only black but I see blue-colored chairs in this list too.”
+                            <br><br>
+                            “Why are sofa and seat covers showing up when I searched for “living room chair”?” 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>The status of filters is not highly visible to the user.</td>
+                        <td class="ikea_qual_quotes">
+                            “I do not know which filters are set by default.”
+                            <br><br>
+                            “I thought I filtered the results by the price but I do not see the range I am looking for.”
+                        </td>
+                    </tr>
+                </table>
+            </p>
+
+            <br>
+            <h6>Quantitative Usability Testing</h6>
+            <p>
+                For our qualitative test, we used Maze.co to administer surveys that participants can use to determine the usability of our prototype of IKEA's 
+                website redesign. We conducted a total of 18 Maze surveys and 17 live interviews through Zoom, and calculated the System Usability Scale (SUS) 
+                scores for the original IKEA website. 
+                
+                <br><br>
+                
+                SUS scores are determined through a ten-question quiz with responses ranging from "Strongly Agree" to "Strongly Disagree". Through these responses, 
+                we're able to determine a rough measurement of the usability of the site out of 100. Anything below 50 is unacceptable, 50 to 70 is marginal, and 
+                anything above 70 is acceptable. IKEA's website SUS score lands at 80.2, which means that their website is very usable. However, there's room for 
+                improvement.
+
+                <br><br>
+
+                <img class="img-fluid" src="../images/projects/ikea/quan_sus.png"/>
+                <p class="caption">IKEA's SUS score lands at an 80.2.</p>
+
+                Our redesign consisted of very small changes that effectively elevated the user experience based on our collective insights from our user research.
+
+                For the cart sidebar, we included information about the user's item they added to their cart, and added a quick option to remove that item from 
+                their cart. With this redesign:
+                <ul>
+                    <li>
+                        <b>97.0%</b> of participants felt that the redesign gave them <b>more confidence</b> that an item had been added to their bag.
+                    </li>
+                    <li>
+                        Green check mark iconography provided <b>immediate confirmation</b>.
+                    </li>
+                    <li>
+                        Participants mentioned <b>liking the preview of their shopping bag</b> in pop out modal.
+                    </li>
+                    <li>
+                        <b>76.5% of participants used the ‘remove product’ button</b> in the redesigned pop out modal rather than navigating to the full shopping 
+                        bag view to delete an item.
+                    </li>
+                </ul>
+
+                <table class="ikea_insights">
+                    <tr>
+                        <td>
+                            <img class="img-fluid" src="../images/projects/ikea/sidebar_before.png" style="width: 500px; height: auto; padding: 10px;"/>
+                        </td>
+                        <td>
+                            <img class="img-fluid" src="../images/projects/ikea/sidebar_after.png" style="width: 500px; height: auto; padding: 10px;"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p class="caption">Original Website - IKEA's cart sidebar</p></td>
+                        <td><p class="caption">Our Redesign - IKEA's cart sidebar</p></td>
+                    </tr>
+                </table>
+
+                <br>
+                The filter status in the search page was also made clearer through color. Any filter that's applied to the search page is highlighted in yellow 
+                to show that it's active. With this redesign:
+                <ul>
+                    <li>
+                        <b>97.1%</b> of participants felt that the redesign gave them <b>more confidence</b> that the color filter is on.
+                    </li>
+                    <li>Some people did not immediately see the ‘black’ color chip, leading to user confusion and frustration. Participants mentioned the 
+                        <b>yellow colored chip made it “easier to spot”</b> that the color filter was in use.
+                    </li>
+                </ul>
+
+                <table class="ikea_insights">
+                    <tr>
+                        <td>
+                            <img class="img-fluid" src="../images/projects/ikea/search_before.png" style="width: 500px; height: auto; padding: 10px;"/>
+                        </td>
+                        <td>
+                            <img class="img-fluid" src="../images/projects/ikea/search_after.png" style="width: 500px; height: auto; padding: 10px;"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p class="caption">Original Website - IKEA's search page</p></td>
+                        <td><p class="caption">Our Redesign - IKEA's search page</p></td>
+                    </tr>
+                </table>
+            </p>
+
+            <br>
+            <h5>Summary of Actionable Recommendations</h5>
+            <p>
+                To summarize our findings:
+                <ul>
+                    <li>
+                        <b>Search Page</b>
+                        <ul>
+                            <li>
+                                Provide status indicators in order to denote which filters are currently in use.
+                            </li>
+                            <li>
+                                Make the appropriate filters automatically turn on when key words are typed into search bar.
+                            </li>
+                            <li>
+                                Improvements to the search bar functionality such as error correction and relevant, more personalized recommendations 
+                                could lead to more purchases.
+                            </li>
+                            <li>
+                                When a filter is in use, the product search results should only show items that fit the filter criteria (currently 
+                                the ‘black’ filter will also show chairs that are not black).
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Cart Sidebar</b>
+                        <ul>
+                            <li>
+                                Add confirmatory iconography to bolster user confidence that they are using the system correctly.
+                            </li>
+                            <li>
+                                Giving the user more control over the functionality of the shopping bag, including a simpler way to see items currently 
+                                in their bag, will result in an improved experience on the IKEA site.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+
+            <br>
+            <h5>Next Steps</h5>
+            <p>
+                There were many insights that we found through our user research that we weren't able to address in our redesign due to time constraints. 
+                In the future, we would take the opportunity to run additional tests with more users to gain further data to create the best personalized 
+                virtual experience for IKEA’s customers. 
+            </p>
+
+            <br>
+            <h5>References</h5>
+            <p>
+                <ul>
+                    <li>https://www.ikea.com/</li>
+                    <li>https://www.tesco.com/</li>
+                    <li>https://www.amazon.com/</li>
+                    <li>https://www.wayfair.com/</li>
+                    <li>https://www.lego.com/en-us</li>
+                    <li>https://www.target.com/</li>
+                    <li>https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html</li>
+                    <li>https://www.similarweb.com</li>
+                    <li>https://research-methodology.net/ikea-segmentation-targeting-positioning-targeting-cost-conscious-customers/</li>
+                    <li>https://www.optimalworkshop.com/homepage/</li>
+                    <li>https://maze.co/</li>
+                    <li>https://www.usertesting.com/</li>
+                </ul>
+            </p>
+
+            <br><br>
+            <p class="team_members">Aditi Kisara | Amanda Xu | Ashley Ngo | Christine Hong | Evan Cox | Poornima Jhanji | Shrimathi Vetri</p>
+        
+            <!-- End of Main Content div-->    
+        </div>
+    </div>
+</body>
+</html>

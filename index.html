@@ -1,121 +1,384 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home</title>
-    <link rel = "stylesheet" href = "static/index.css">
+    <title>Aditi Kisara - Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/index.css" rel="stylesheet">
 </head>
 <body>
-    <div class = 'mainImgContainer'>
-        <img src="image/mainImg.jpg" class = "mainImg">
-        <div class = "title">
-            <h1>Hi! I'm Aditi.</h1>
-            <p>Welcome to my portfolio!</p>
+    <!-- Header Nav -->
+    <div class="container-fluid row" id="header_nav">
+        <div class="col-3">
+            <p><u>Home</u></p>
         </div>
-
-        <div class = "learn">
-            <p>Learn more about me</p>
+        <div class="col-3">
+            <p><a href="projects.html">Projects</a></p>
         </div>
-
-        <div class = "arrow">
-            <a href = "#aboutMe"><span></span></a>
+        <div class="col-3">
+            <p><a href="resume.html">Resume</a></p>
+        </div>
+        <div class="col-3">
+            <p><a href="about.html">About</a></p>
         </div>
     </div>
+
+    <!-- Introduction -->
+    <div class="container-fluid row" id="intro">
+        <div class="col-xl-6" id="profile_container">
+            <img class="img-fluid" id="profile" src="images/homepage/profile.png" alt="A picture of me!">
+        </div>
+        <div class="col-xl-6" id="intro_text">
+            <h1>Hi, I'm Aditi!</h1>
+            <p>I'm a frontend developer that loves to design and code my creations to life!</p>
+            <div class="col-xxl-12" id="icons">
+                <a href="https://github.com/aditikisara" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="images/homepage/gh.png" alt="Image linked to GitHub"></a>
+                <a href="https://www.linkedin.com/in/aditi-kisara-27bb1a1a9/" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="images/homepage/in.png" alt="Image linked to LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Divider -->
+    <hr style="width: 75%; margin: auto;">
+
+    <!-- Projects -->
+    <h1 style="text-align: center; margin: 30px;" id="projects_section">Projects</h1>
     
-    <br id = "aboutMe">
-
-    <div class = "about">
-        <div class = "heading1">
-            <h1>About Me</h1>
+    <!-- Row 1 -->
+    <div class="row project_row container-fluid">
+        <!-- Code.org on the Go -->
+        <div class="col-xl-6 projects">
+            <div class="row">
+                <div class="col">
+                    <div class="row title">
+                        <h3>Code.org on the Go</h3>
+                    </div>
+                    <div class="row tagline">
+                        <p>A mobile application for Code.org's CSF Express curriculum</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="projects/code.html">
+                    <img class="img-fluid arrow_btn" src="images/homepage/arrow_btn.png" alt="Click here to view more info on this project"/>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-top: 60px;">
+                <div class="col project_backgroundL">
+                    <!-- purple background -->
+                </div>
+                <img class="img-fluid project_img" src="images/homepage/code_home.png" alt="A screen from this app"/>
+                <div class="col project_backgroundR">
+                    <!-- purple background -->
+                </div>
+            </div>
         </div>
 
-        <table>
-            <tr>
-                <td style = "width: 20%;">
-                    <img src = "image/profile (update).png" width="300px" height="300px">
-                </td>
-                <td id = "sec" style = "padding: 20px;">
-                    <p>
-                        I graduated with my BS in Computer Science and Engineering at the University of California, Merced. Currently, I 
-                        am attending the University of California, Irvine for my Masters in Human-Computer Interaction and Design.
-                        
-                        <br><br>
-                        I have a strong desire to learn and help others with the skills I have gained throughout my academic and personal 
-                        experiences. I want to dive head-first into the professional world of technology and make it accessible to people 
-                        in need. Over time I hope to immerse myself further in user interface design and frontend development, and gain 
-                        practical and industrial experience.
-                    </p>
-                </td>
-            </tr>
-        </table>
-        <br><br>
+        <!-- Reversi -->
+        <div class="col-xl-6 projects">
+            <div class="row">
+                <div class="col">
+                    <div class="row title">
+                        <h3>Reversi</h3>
+                    </div>
+                    <div class="row tagline">
+                        <p>A recreation of Reversi (Othello) on the web</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="projects/reversi.html">
+                    <img class="img-fluid arrow_btn" src="images/homepage/arrow_btn.png" alt="Click here to view more info on this project"/>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+                <div class="col project_backgroundL">
+                    <!-- purple background -->
+                </div>
+                <img class="img-fluid project_img" src="images/homepage/reversi_home.png" alt="A screen from this app"/>
+                <div class="col project_backgroundR">
+                    <!-- purple background -->
+                </div>
+            </div>  
+        </div>
     </div>
 
-    <div class = "projects" id = "projects">
-        <div class = "heading2">
-            <h1>Projects</h1>
-            <p>Click on an image to learn more about the project!</p>
+    <!-- Row 2 -->
+    <div class="row project_row container-fluid">
+        <!-- IKEA User Experience Evaluation -->
+        <div class="col-xl-6 projects">
+            <div class="row">
+                <div class="col">
+                    <div class="row title">
+                        <h3>IKEA User Experience Evaluation</h3>
+                    </div>
+                    <div class="row tagline">
+                        <p>A user analysis of IKEA's website</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="projects/ikea.html">
+                    <img class="img-fluid arrow_btn" src="images/homepage/arrow_btn.png" alt="Click here to view more info on this project"/>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 20px;">
+                <div class="col project_backgroundL">
+                    <!-- purple background -->
+                </div>
+                <img class="img-fluid project_img" src="images/homepage/ikea_home.png" alt="A screen from this app"/>
+                <div class="col project_backgroundR">
+                    <!-- purple background -->
+                </div>
+            </div>
         </div>
-        <table>
-            <tr>
-                <td><a href = "templates/comm_serv.html"><img src = "image/bred.jpg" class = "prjImg"></a></td>
-                <td><a href = "templates/cow_det.html"><img src = "image/cow.jpeg" class = "prjImg"></a></td>
-                <td><a href = "templates/task_man.html"><img src = "image/task manager.png" class = "prjImg"></a></td>
-            </tr>
-            <tr>
-                <td>Community Services App</td>
-                <td>Cow Detection</td>
-                <td>Task Manager</td>
-            </tr>
-        </table>
 
-        <br><br> 
-
-        <table>
-            <tr>
-                <td><a href = "templates/hangman.html"><img src = "image/hangman.png" class = "prjImg"></a></td>
-                <td><a href = "templates/tictactoe.html"><img src = "image/tictactoe.jpg" class = "prjImg"></a></td>
-                <td><a href = "templates/mhcid.html"><img src = "image/uci_logo.png" class = "prjImg"></a></td>
-            </tr>
-            <tr>
-                <td>Hangman</td>
-                <td>Tic-Tac-Toe</td>
-                <td>MHCID - C7</td>
-            </tr>
-        </table>
-        <br><br>
+        <!-- Hear Me Out -->
+        <div class="col-xl-6 projects">
+            <div class="row">
+                <div class="col">
+                    <div class="row title">
+                        <h3>Hear Me Out</h3>
+                    </div>
+                    <div class="row tagline">
+                        <p>Remote education for deaf students</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="projects/hearmeout.html">
+                    <img class="img-fluid arrow_btn" src="images/homepage/arrow_btn.png" alt="Click here to view more info on this project"/>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-top: 20px;">
+                <div class="col project_backgroundL">
+                    <!-- purple background -->
+                </div>
+                <img class="img-fluid project_img" src="images/homepage/hearmeout_home.png" alt="A screen from this app"/>
+                <div class="col project_backgroundR">
+                    <!-- purple background -->
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class = "documents" id = "documents">
-        <div class = "heading3">
-            <h1>Documents</h1>
-            <p>Here are some of my other documents that may interest you!</p>
+    <!-- Row 3 -->
+    <div class="row project_row container-fluid">
+        <!-- Savable -->
+        <div class="col-xl-6 projects">
+            <div class="row">
+                <div class="col">
+                    <div class="row title">
+                        <h3>Savable</h3>
+                    </div>
+                    <div class="row tagline">
+                        <p>A smart fridge app to help reduce waste</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="projects/savable.html">
+                    <img class="img-fluid arrow_btn" src="images/homepage/arrow_btn.png" alt="Click here to view more info on this project"/>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-top: 20px;">
+                <div class="col project_backgroundL">
+                    <!-- purple background -->
+                </div>
+                <img class="img-fluid project_img" src="images/homepage/savable_home.png" alt="A screen from this app"/>
+                <div class="col project_backgroundR">
+                    <!-- purple background -->
+                </div>
+            </div>
         </div>
+
+        <!-- Carebot -->
+        <div class="col-xl-6 projects">
+            <div class="row">
+                <div class="col">
+                    <div class="row title">
+                        <h3>Carebot</h3>
+                    </div>
+                    <div class="row tagline">
+                        <p>A smartwatch health chatbot</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="projects/carebot.html">
+                    <img class="img-fluid arrow_btn" src="images/homepage/arrow_btn.png" alt="Click here to view more info on this project"/>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-top: 20px;">
+                <div class="col carebot_backgroundL">
+                    <!-- purple background -->
+                </div>
+                <img class="img-fluid project_img" src="images/homepage/carebot_home.png" alt="A screen from this app"/>
+                <div class="col carebot_backgroundR">
+                    <!-- purple background -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Row 4 -->
+    <div class="row project_row container-fluid">
+        <!-- Community Services App -->
+        <div class="col-xl-6 projects">
+            <div class="row">
+                <div class="col">
+                    <div class="row title">
+                        <h3>Community Services App</h3>
+                    </div>
+                    <div class="row tagline">
+                        <p>A database filled with local resources</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="projects/comm.html">
+                    <img class="img-fluid arrow_btn" src="images/homepage/arrow_btn.png" alt="Click here to view more info on this project"/>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-top: 20px;">
+                <div class="col project_backgroundL">
+                    <!-- purple background -->
+                </div>
+                <img class="img-fluid project_img" src="images/homepage/commservices_home.png" alt="A screen from this app"/>
+                <div class="col project_backgroundR">
+                    <!-- purple background -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Task Manager -->
+        <div class="col-xl-6 projects">
+            <div class="row">
+                <div class="col">
+                    <div class="row title">
+                        <h3>Task Manager</h3>
+                    </div>
+                    <div class="row tagline">
+                        <p>A Kanban-inspired board</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="projects/taskmanager.html">
+                    <img class="img-fluid arrow_btn" src="images/homepage/arrow_btn.png" alt="Click here to view more info on this project"/>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-top: 20px;">
+                <div class="col project_backgroundL">
+                    <!-- purple background -->
+                </div>
+                <img class="img-fluid project_img" src="images/homepage/task_home.png" alt="A screen from this app"/>
+                <div class="col project_backgroundR">
+                    <!-- purple background -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Row 5 -->
+    <div class="row project_row container-fluid">
+        <!-- Cow Detection Software -->
+        <div class="col-xl-6 projects">
+            <div class="row">
+                <div class="col">
+                    <div class="row title">
+                        <h3>Cow Detection Software</h3>
+                    </div>
+                    <div class="row tagline">
+                        <p>An image-detection software to reduce water intake</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="projects/cow.html">
+                    <img class="img-fluid arrow_btn" src="images/homepage/arrow_btn.png" alt="Click here to view more info on this project"/>
+                    </a>
+                </div>
+            </div>
         
-        <table>
-            <tr>
-                <td><a href = "templates/resume.html"><img id = "resume" src = "image/resume.png"></a></td>
-<!--                 <td><a href = "templates/cv.html"><img id = "cv" src = "image/cv.png"></a></td>
- -->            </tr>
-            <tr>
-                <td id = "cap">Resume</td>
-                <!-- <td>CV</td> -->
-            </tr>
-        </table>
-        <br><br>
+            <div class="row" style="margin-top: 20px;">
+                <div class="col project_backgroundL">
+                    <!-- purple background -->
+                </div>
+                <img class="img-fluid project_img" src="images/homepage/cow_home.png" alt="A screen from this app"/>
+                <div class="col project_backgroundR">
+                    <!-- purple background -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Hangman -->
+        <div class="col-xl-6 projects">
+            <div class="row">
+                <div class="col">
+                    <div class="row title">
+                        <h3>Hangman</h3>
+                    </div>
+                    <div class="row tagline">
+                        <p>Guess the word with a limited number of tries</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="projects/hangman.html">
+                    <img class="img-fluid arrow_btn" src="images/homepage/arrow_btn.png" alt="Click here to view more info on this project"/>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-top: 20px;">
+                <img class="img-fluid project_img" src="images/homepage/hangman_home.png" 
+                style="background-color: #31025E; border-radius: 20px;"
+                alt="A screen from this app"/>
+            </div>
+        </div>
     </div>
 
-    <div class = "links">
-        <table>
-            <tr>
-                <td><a href = "https://github.com/aditikisara"><img src = "image/github.png"></a></td>
-                <td><a href = "https://www.linkedin.com/in/aditi-kisara-27bb1a1a9/"><img src = "image/linkedin.png"></a></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td>Click to view my profile on GitHub, or visit my LinkedIn profile!</td>
-            </tr>
-        </table>
+    <!-- Last Row (1 left, centered) -->
+    <div class="row project_row container-fluid" id="last_row">
+        <!-- Tic-Tac-Toe -->
+        <div class="col-xl-6 projects" style="margin: auto;">
+            <div class="row">
+                <div class="col">
+                    <div class="row title">
+                        <h3>Tic-Tac-Toe</h3>
+                    </div>
+                    <div class="row tagline">
+                        <p>A two-player game on a 3x3 grid</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="projects/ttt.html">
+                    <img class="img-fluid arrow_btn" src="images/homepage/arrow_btn.png" alt="Click here to view more info on this project"/>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-top: 20px;">
+                <img class="img-fluid project_img" src="images/homepage/ttt_home.png" 
+                style="background-color: #31025E; border-radius: 20px;"
+                alt="A screen from this app"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="backtotop_btn_container">
+        <a href="#"><button id="backtotop_btn">Back to top</button></a>
     </div>
 
 </body>

@@ -1,0 +1,143 @@
+/* Style sheet for index.html (aka the home page) */
+
+/*
+Main color: #31025E
+Secondary color: #240046
+*/
+
+#header_nav{
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#header_nav a {
+    color: black;
+    text-decoration: none;
+}
+
+#header_nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#intro {
+    width: 75%;
+    margin: auto;
+}
+
+#profile_container {
+    margin: auto;
+}
+
+#profile {
+    width: 250px; 
+    height: auto; 
+    border: 5px solid #31025E; 
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+#intro_text {
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+#icons img {
+    width: 80px;
+    min-width: 30px;
+    height: auto;
+    padding: 3%;
+}
+
+#icons img:hover {
+    filter: drop-shadow(0px 0px 5px #31025E);
+}
+
+/* Projects in groups of two */
+.project_row {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Each individual box */
+.projects {
+    min-width: 400px;
+    height: 500px;
+    background-color: #240046;
+    border: 10px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 30px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.project_img {
+    max-height: 300px;
+    width: auto; 
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.project_backgroundL {
+    background-color: #31025E;
+    border-radius: 0px 20px 20px 0px;
+    margin: 10px 10px 10px 0px;
+}
+
+.project_backgroundR {
+    background-color: #31025E;
+    border-radius: 20px 0px 0px 20px;
+    margin: 10px 0px 10px 10px;
+}
+
+/* Backgrounds for Carebot */
+.carebot_backgroundL {
+    background-color: #31025E;
+    border-radius: 0px 20px 20px 0px;
+    margin: 60px 10px 60px 0px;
+}
+
+.carebot_backgroundR {
+    background-color: #31025E;
+    border-radius: 20px 0px 0px 20px;
+    margin: 60px 0px 60px 10px;
+}
+
+.projects_link {
+    color: black;
+    text-decoration: none;
+    display: flex;
+}
+
+.arrow_btn {
+    width: 60px;
+    height: auto;
+}
+
+.arrow_btn:hover {
+    filter: drop-shadow(-5px 5px 0px purple);
+}
+
+#backtotop_btn_container {
+    margin: auto;
+    width: 200px;
+    height: auto;
+}
+
+#backtotop_btn {
+    padding: 10px;
+    margin: 30px;
+    border: 1px solid #240046;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}

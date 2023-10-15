@@ -1,0 +1,40 @@
+/* Stylesheet for about.html */
+
+#header_nav{
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#header_nav a {
+    color: black;
+    text-decoration: none;
+}
+
+#header_nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#img_container {
+    margin: auto;
+}
+
+img {
+    width: 250px; 
+    height: auto; 
+    border: 5px solid #31025E; 
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+#info_container {
+    padding: 30px;
+    margin: auto;
+}
+
+h4 {
+    font-weight: bold;
+}

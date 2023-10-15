@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aditi Kisara - Projects - Code.org on the Go</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../css/individual_project.css" rel="stylesheet">
+    <link href="../css/carousel.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Nav -->
+    <div class="row container-fluid" id="header_nav">
+        <div class="col-3">
+            <p><a href="../index.html">Home</a></p>
+        </div>
+        <div class="col-3">
+            <p><u>Projects</u></p>
+        </div>
+        <div class="col-3">
+            <p><a href="../resume.html">Resume</a></p>
+        </div>
+        <div class="col-3">
+            <p><a href="../about.html">About</a></p>
+        </div>
+    </div>
+
+    <hr style="width: 90%; margin: auto; color: rgb(150, 150, 150)">
+
+    <!-- Project Selection Sidebar -->
+    <div class="row container-fluid">
+        <div class="col-sm-2 container-fluid" id="sidebar">
+            <div class="row project_options" id="selected">
+                <a href="code.html">Code.org on the Go</a>
+            </div>
+                
+            <div class="row project_options">
+                <a href="reversi.html">Reversi</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="ikea.html">IKEA User Experience Evaluation</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="hearmeout.html">Hear Me Out</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="savable.html">Savable</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="carebot.html">Carebot</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="comm.html">Community Services App</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="taskmanager.html">Task Manager</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="cow.html">Cow Detection Software</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="hangman.html">Hangman</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="ttt.html">Tic-Tac-Toe</a>
+            </div> 
+        </div>
+
+        <!-- Main Content -->
+        <div class="col container-fluid" id="content">
+            <h3 id="title">Code.org on the Go</h3>
+            <p id="subtitle"><i>A mobile application for Code.org's CSF Express curriculum</i></p>
+            <img class="img-fluid main_img" src="../images/homepage/code_home.png"/>
+            <br>
+            <div class="row">
+                <div class="col" style="margin: 10px 10px 10px 0px;">
+                    <h5>My Role(s)</h5>
+                    <p>Project Manager</p>
+                    <p>UX Designer</p>
+                    <p>UX Researcher</p>
+                </div>
+                <div class="col" style="margin: 10px 0px 10px 10px;">
+                    <h5>External Links</h5>
+                    <a href="https://tinyurl.com/ybr54ycw" 
+                        class="external_links"
+                        target="_blank" 
+                        rel="noopener noreferrer">
+                        <p>Figma Prototype</p>
+                    </a>
+                </div>
+            </div>
+
+            <br>
+            <h5>Introduction</h5>
+            <p>
+                Code.org is an educational, nonprofit organization that strives to make computer science education accessible to students all 
+                over the world, with a focus on diverse and underrepresented populations. Code.org wants to make CS education as accessible as 
+                possible, and with the majority of the world's population owning 4G phones, there's an opportunity to expand exposure to CS 
+                curriculum in lower-income regions and diverse populations through these mobile devices. The goal of our work with Code.org is 
+                to design a mobile version of their Computer Science Fundamentals (CSF) Express curriculum for kids from 2nd to 8th grade in 
+                the global South. We expect our prototype to be customizable, exploratory, rewarding, and user friendly to meet our young users' 
+                needs. In the long term, we hope our project will be able to help kids in the global South develop their programming skills by 
+                using the mobile version of Code.org's CSF Express curriculum.
+
+                <br><br>
+
+                Feel free to play with our mobile prototype! If you're using a phone, make sure it's in horizontal mode. (Note that because the 
+                app is designed for a large Android screen, it may not perfectly fit your phone. That's alright! You can still play through it 
+                just fine). If you're on a laptop or desktop computer, use your mouse or trackpad to navigate through the app. 
+
+                <br><br>    
+
+                Note: Any mention of “client” in this page refers to Code.org.
+            </p>
+
+            <br>
+            <h5>The Plan</h5>
+            <p>
+                We had a tight 6-month timeframe in order to get this project done. As the Project Manager (PM), I utilized waterfall timelines 
+                to create a plan that outlined when each part of the project should be completed to ensure that our team of five completed the 
+                project on time.
+                
+                <br><br>
+                
+                These were the main stages of our research:
+                <ol>
+                    <li>
+                        <b>Initial Research.</b> This consisted of a competitive analysis and a literature review surrounding the scope of our project. 
+                        We also conducted a cognitive walkthrough of our client's CSF Express curriculum.
+                    </li>
+                    <li>
+                        <b>Phase 1 Research.</b> This is when we conducted our first round of in-person/remote qualitative user interviews.
+                    </li>
+                    <li>
+                        <b>Phase 1 Design.</b> Based on the findings from our Phase 1 research and client feedback, we designed an initial prototype of 
+                        the mobile application.
+                    </li>
+                    <li>
+                        <b>Phase 2.1 Research.</b> We tested our initial prototype with end users through in-person qualitative interviews.
+                    </li>
+                    <li>
+                        <b>Phase 2.1 Design.</b> Adjusted the prototype based on findings from Phase 2.1 research and client feedback.
+                    </li>
+                    <li>
+                        <b>Phase 2.2 Research.</b> A smaller scale of Phase 2.1 research, with the goal of refining the prototype and focusing on the 
+                        big picture.
+                    </li>
+                    <li>
+                        <b>Phase 2.2 Design.</b> Refined prototype based on findings from Phase 2.2 research and client feedback.
+                    </li>
+                </ol>
+
+                Here's our general timeline for the duration of the project. 
+            </p>
+            <img class="img-fluid" src="../images/projects/code_org/timeline.png"/>
+            
+            <br>
+            <h5>Tools Used</h5>
+            <br>
+            <img class="img-fluid" src="../images/projects/code_org/tools_used.png"/>
+            <br>
+            <p>
+                We used Dovetail to transcribe and code our user interviews, FigJam to create our affinity map and synthesize our data, and Figma to create 
+                our prototype.
+            </p>
+            
+            <br>
+            <h5>Initial Research</h5>
+            <h6>Competitive Analysis</h6>
+            <p>
+                We looked at seven different online learning platforms, each dedicated to teaching students a defined curriculum. In particular, we looked 
+                at how competitors kept their users engaged through gamification within their mobile application and how they designed their mobile 
+                interfaces to effectively deliver their curriculum.
+
+                <br><br>
+
+                We utilized Nielsen's Heuristics, Wharton's Cognitive Walkthroughs, Krug's usability principles, and Jill Butler's Universal Principles of 
+                Design to inform the design of an intuitive and feedback-rich mobile coding interface, ensuring an optimal user experience.
+            </p>
+            <table id="comp_analysis">
+                <thead id="main_table_heading">
+                    <tr>
+                        <th>Competitor</th>
+                        <th>Who are they?</th>
+                        <th>Why did we select them?</th>
+                        <th>What can we learn from them?</th>
+                    </tr>
+                </thead>
+                <thead class="table_subheading">
+                    <tr>
+                        <th colspan="4">Direct Competitors</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td class="competitors">
+                        <img class="img-fluid" src="../images/projects/code_org/competitors/MakeCode.png" />
+                        <br>
+                        MakeCode
+                    </td>
+                    <td>
+                        Microsoft MakeCode is a free online learn-to-code platform where anyone can build games, code devices, and mod Minecraft. They 
+                        offer block-based coding for beginners and text-based coding for intermediate and advanced learners. Users go through 
+                        step-by-step tutorials to complete projects and learn computer science concepts.
+                    </td>
+                    <td>
+                        MakeCode is targeted to middle schoolers, which is the same target demographic as Code.org. They offer coding opportunities 
+                        of all proficiency types, including block-based coding for beginners. They also teach students how to code by having them complete 
+                        projects, similar to some of the projects on Code.org's website (not in the CSF curriculum).
+                    </td>
+                    <td>
+                        All of MakeCode's projects are tutorial-based to teach students CS concepts. Code.org can do a similar thing within their CSF 
+                        Express website to teach code using guided projects. They also have defined learning paths based on how users rate their own 
+                        coding proficiency. Because Code.org's CSF curriculum is a free-roam experience, having a defined pathway can help to tailor the 
+                        curriculum to the individual user.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="competitors">
+                        <img class="img-fluid" src="../images/projects/code_org/competitors/Tickle.png" />
+                        <br>
+                        Tickle
+                    </td>
+                    <td>
+                        Tickle is a block-based coding app on IOS devices that teaches young users how to code. They let users have full freedom to code 
+                        whatever they want. They also have the option of coding external robots.
+                    </td>
+                    <td>
+                        Tickle's target audience matches that of Code.org's. They both have the same goal of teaching code, and both use block-based 
+                        coding to deliver this content. Additionally, both applications give users control in the curriculum to a certain extent. While 
+                        Tickle gives users freedom to code whatever they like, Code.org let's users pick whatever activity they want to do within the CSF 
+                        Express curriculum. Code.org also offers their end-of-course project, where users have the freedom to code anything they desire, 
+                        just like with Tickle.
+                    </td>
+                    <td>
+                        Code.org could integrate external devices like robots for users to control. This would add an extra opportunity to teach users not 
+                        only CS, but robotics as well.
+                    </td>
+                </tr>
+                <thead class="table_subheading">
+                    <th colspan="4">Indirect Competitors</th>
+                </thead>
+                <tr>
+                    <td class="competitors">
+                        <img class="img-fluid" src="../images/projects/code_org/competitors/Grasshopper.png" />
+                        <br>
+                        Grasshopper
+                    </td>
+                    <td>
+                        Grasshopper was a mobile coding application by Google. They taught text-based coding to beginners through small puzzles. They 
+                        taught code to an older target audience, and their approach is through text-based coding like JavaScript. Their goal was to 
+                        help users learn code to develop new skills, or shift to another career field. Unfortunately, Grasshopper shut down in June 2023.
+                    </td>
+                    <td>
+                        With well over 1.6 million installs, Grasshopper had identified itself as a substantial mobile learning app on the Google Play 
+                        store. Their mobile app UI was an important consideration as to why they were chosen for our competitive analysis.
+                    </td>
+                    <td>
+                        Grasshopper gave the user a base pathway for them to follow. Offering users a pathway gives them a sense of direction on where 
+                        they could go without restricting the free-roam experience.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="competitors">
+                        <img class="img-fluid" src="../images/projects/code_org/competitors/Tynker.png" />
+                        <br>
+                        Tynker
+                    </td>
+                    <td>
+                        Tynker is a learning application that teaches kids how to code using drag-and-drop blocks. Their goal is to provide every child 
+                        with a foundation in computer science, programming, and critical thinking skills.
+                    </td>
+                    <td>
+                        Their target audience lines up with Code.org's, and they teach block-based programming. They also offer advanced courses for 
+                        programming languages, data science, art, and image processing.
+                    </td>
+                    <td>
+                        Their wide range of courses allow more users to be interested in Tynker. While Code.org has a variety of courses in CS topics on 
+                        their website, it's not integrated into their CSF Express curriculum. In doing so, we can connect more users with their interests 
+                        and increase exposure to CS.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="competitors">
+                        <img class="img-fluid" src="../images/projects/code_org/competitors/Mimo.png" />
+                        <br>
+                        Mimo
+                    </td>
+                    <td>
+                        Mimo is a mobile application that provides lessons in numerous coding languages, including HTML, CSS, JavaScript, and Python. 
+                        They offer courses for people of different levels of expertise and use short lessons to keep users engaged.
+                    </td>
+                    <td>
+                        They teach coding languages and introductions to basic web development. When signing up, users can select where they are in their 
+                        coding journey and can select what specific language or course they want to learn.
+                    </td>
+                    <td>
+                        Mimo offers user pathways based on their coding proficiency level and what they want to learn. Code.org has something similar 
+                        implemented into their CSF curriculum by grouping different courses based on grade level. Instead, providing users pathways based 
+                        on their proficiency level can better give users a more fulfilling experience with Code.org.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="competitors">
+                        <img class="img-fluid" src="../images/projects/code_org/competitors/SoloLearn.png" />
+                        <br>
+                        SoloLearn
+                    </td>
+                    <td>
+                        SoloLearn is an online platform and an app that provides students and professionals an opportunity to learn a new coding 
+                        language.
+                    </td>
+                    <td>
+                        Users have a wide variety of courses to choose from. Once they complete their course, they get a certificate to show off their 
+                        accomplishment. They use text-based coding, and have a reliable mobile app.
+                    </td>
+                    <td>
+                        Defined user pathways are important to tailor the curriculum to the individual. Code.org could showcase the user's 
+                        accomplishments when they complete a certain part of the course. As of now, they show a certificate after they complete the 
+                        Express course from their website.
+                    </td>
+                </tr>
+                <thead class="table_subheading">
+                    <th colspan="4">Influencer</th>
+                </thead>
+                <tr>
+                    <td class="competitors">
+                        <img class="img-fluid" src="../images/projects/code_org/competitors/Duolingo.png" />
+                        <br>
+                        Duolingo
+                    </td>
+                    <td>
+                        Duolingo is a language learning platform that provides free online courses on many languages around the world. They encourage 
+                        students to learn using a reward-based system (points, experience, etc.).
+                    </td>
+                    <td>
+                        Duolingo is one of the most successful learning apps on mobile, partly due to the amount of gamification elements that exist 
+                        within the app. Each element motivates users to continue learning and make progress within the app's course.
+                    </td>
+                    <td>
+                        Code.org can implement a system that motivates users to complete activities on the Express page and reward them for their progress.
+                    </td>
+                </tr>
+            </table>
+            <br>
+            
+            <br>
+            <h6>Literature Review</h6>
+            <p>
+                We conducted a literature review to understand some of the current research surrounding mobile learning, gamification, and the culture 
+                around technology in the global south — specifically in Latin America, India, and Africa.
+            </p>
+            <img class="img-fluid" src="../images/projects/code_org/lit_review.png"/>
+            <br>
+
+            <br>
+            <h6>Summary of Findings</h6>
+            <div class="row container-fluid">
+                <div class="row findings">
+                    There's three main ways young students learn: through visual, auditory, or kinesthetic means. Combining these three methods will 
+                    ensure that the students is getting the most out of the material.
+                </div>
+                <div class="row findings">
+                    Gamification has shown to be very effective in learning apps.
+                </div>
+                <div class="row findings">
+                    Having a path that's clearly defined in the app can help users navigate around material easily.
+                </div>
+                <div class="row findings">
+                    Audio and visual feedback promote active learning by letting users know where they need help, and how much they've learned.
+                </div>
+                <div class="row findings">
+                    Because this app is targeted towards children, having colorful characters and incentives to complete lessons will motivate users 
+                    to continue learning.
+                </div>
+            </div>
+
+            <br>
+            <h6>Guiding Questions</h6>
+            <p>
+                We identified and addressed guiding questions related to learning models, gamification, clearly defined pathways, feedback mechanisms, 
+                user motiva- tion, and user experience. These guiding questions were used as the basis for our research.
+            </p>
+            <img class="img-fluid" id="guiding_qs" src="../images/projects/code_org/guiding_qs.png"/>
+
+            <br><br>
+            <h5>CSF Express Course - Cognititve Walkthrough</h5>
+            <p>
+                The main objective of the cognitive walkthrough was to understand the keyboard experience and how it could be implemented in an app 
+                version. The ultimate goal is to migrate the client's web curriculum into a mobile application, while bringing over the same look and feel. 
+
+                <br><br>
+
+                Based on our initial research and this cognitive walkthrough, the following was kept in mind for the prototype:
+
+                <ol>
+                    <li>
+                        Keep the freedom of completing any activity (in a broader sense, keep the essence of the client's website the same)
+                    </li>
+                    <li>
+                        Introduce gamification to motivate users to complete activities (addresses Guiding Question #1)
+                    </li>
+                    <li>
+                        Encourage user creativity through block-based coding (the current CSF Express course has an end-of-course project where users can 
+                        code whatever they want. Incorporate something like this into the prototype)
+                    </li>
+                    <li>
+                        Encourage users to explore different areas of CS concepts to reach a wider range of audiences (addresses Guiding Question #3)
+                    </li>
+                    <li>
+                        Provide content in multiple formats to account for different learning styles (addresses Guiding Question #1)
+                    </li>
+                    <li>
+                        Tailor the curriculum to address multiple coding backgrounds (addresses Guiding Question #2)
+                    </li>
+                </ol>
+            </p>
+
+            <br>
+            <h5>Phase 1 Research and Design</h5>
+            
+            <h6>Interviews</h6>
+            <p>
+                For today's kids to be successful in the future, our client believes that they will need to learn basic computer science concepts and 
+                coding. The goal for this phase of research was to inform the initial design of our mobile prototype through qualitative user interviews.
+                
+                <br><br>
+
+                We focused on learning:
+                <ul>
+                    <li>
+                        Parents and children's beliefs and attitudes towards computer science in schools, and if they feel they will need to learn 
+                        coding or computer science to be successful later in life
+                    </li>
+                    <li>
+                        What gamification strategies and UI elements children respond positively to and why
+                    </li>
+                    <li>
+                        When children were provided access to mobile devices, and what limitations parents placed on those devices. Was this consistent 
+                        between games and educational applications?
+                    </li>
+                </ul>
+
+                We also conducted a cognitive walkthrough by having participants complete a lesson in the CSF Express curriculum. Through this, we 
+                identified potential pain points that needed to be addressed within our prototype, gained insights into children's hobbies and 
+                interests to learn what types of activities and topics they might be interested in learning about, and the intersection of computer 
+                science with their hobby.
+            </p>
+            <br>
+            <img class="img-fluid" src="../images/projects/code_org/phase 1/phase1_logistics.png"/>
+
+            <br><br>
+            <h6>Synthesis</h6>
+            <p>
+                After conducting the interviews, we coded each transcript. This coding process involved categorizing participant's responses based on 
+                overarching themes. Each team member coded multiple interviews outside of our own to ensure that we had a comprehensive analysis and 
+                to avoid overlooking significant information. The team utilized Dovetail for coding transcripts and gathering insights.
+
+                <br><br>
+
+                Once all of our transcripts were coded, we imported the tagged quotes into FigJam and created our affinity map. Quotes were grouped 
+                based on their tag. Through this, we were able to see patterns throughout the responses and generate our findings based on these 
+                patterns.
+            </p>
+
+            <br>
+            <h6>Findings</h6>
+            <p>
+                Scroll though our findings and how we implemented them into our prototype here!
+            </p>
+            <!-- Carousel of images -->
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/1 - avatar.png" alt="Slide 1">
+                    <div class="carousel-caption">
+                        <b>Account Creation</b>
+                        <br>
+                        The first step is to create an account. Create a username and select an avatar. Future log-in screen to show many profiles 
+                        on a single account, like Netflix.
+                    </div>
+                </div>
+        
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/2 - placement.png" alt="Slide 2">
+                    <div class="carousel-caption">
+                        <b>Decision Tree</b>
+                        <br>
+                        The next step is to choose your path. Start from the beginning, or test out of some lessons.
+                    </div>
+                </div>
+        
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/3 - placement.png" alt="Slide 3">
+                    <div class="carousel-caption">
+                        <b>Placement Test</b>
+                        <br>
+                        The questions are based on topics from Code.org’s curriculum.
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/4 - test.png" alt="Slide 4">
+                    <div class="carousel-caption">
+                        <b>Placement by Proficiency</b>
+                        <br>
+                        On Code.org, the CSF course is broken down by grade. We eliminated that factor and instead place users based on how well they 
+                        understand the CS topics offered.
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/5 - stars.png" alt="Slide 5">
+                    <div class="carousel-caption">
+                        <b>Stars!</b>
+                        <br>
+                        Our gamification relies on participants completing lessons and activities to earn stars. They can use the stars to customize their avatar.
+                        <br><br>
+                        During the interviews, having the ability to customize an avatar was brought up by almost all participants.
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/6 - profile.png" alt="Slide 6">
+                    <div class="carousel-caption">
+                        <b>Profile</b>
+                        <br>
+                        Easily access the profile from the main navigation at any point.
+                        <br><br>
+                        <b>Navigation</b>
+                        <br>
+                        Home, Explore, Playground and Profile were the top four navigation choices we needed participants to have clear and easy access to.
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/7 - profile_custom.png" alt="Slide 7">
+                    <div class="carousel-caption">
+                        <b>Customize that Avatar!</b>
+                        <br>
+                        Characters on the right, closet on the left, and new items to purchase just a downward scroll away.
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/8 - activity.png" alt="Slide 8">
+                    <div class="carousel-caption">
+                        <b>Keyboard</b>
+                        <br>
+                        The ‘Keyboard’ is made up of the instructions, tool box, workspace, and output. The coding blocks live in the tool box, and can be 
+                        tapped on and dragged over to the workspace. We needed it to be intuitive and easy to use, and it helped drive a horizontal screen for 
+                        the experience.
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/9 - playground.png" alt="Slide 9">
+                    <div class="carousel-caption">
+                        <b>Playground</b>
+                        <br>
+                        Kids like to be creative, and learning through play is one of the best ways to learn. Users can use a template from the inspiration 
+                        section, or create their own experience using the code they've learned.
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/10 - playground_workspace.png" alt="Slide 10">
+                    <div class="carousel-caption">
+                        <b>Playground Workspace</b>
+                        <br>
+                        Like how every toy has its cubby, the different types of coding blocks have their own labeled drawers.
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/11 - explore.png" alt="Slide 11">
+                    <div class="carousel-caption">
+                        <b>Explore</b>
+                        <br>
+                        Where areas of interest and computer science intersect. Giving kids the chance to learn how computer science and coding are used almost 
+                        everywhere can help drive the relevance of learning computer science. For example, Artificial Intelligence is modeled after what Code.org 
+                        has on their website, with a call out to their AI for Oceans activity. 
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/12 - Homepage.png" alt="Slide 12">
+                    <div class="carousel-caption">
+                        <b>Homepage</b>
+                        <br>
+                        Carousel UI for course topics. Each topic block has a lighter and color line portion, to denote how ‘complete’ a specific topic is. There's 
+                        also a call-out for the current amount of stars.
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/13 - Lesson.png" alt="Slide 13">
+                    <div class="carousel-caption">
+                        <b>Changing the Design</b>
+                        <br>
+                        Going from web to mobile, we wanted to keep the same hierarchy of lessons but changed the presentation. Here, we are in the topic of Sequencing 
+                        and can see the four different lesson plans. 
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/14 - activities.png" alt="Slide 14">
+                    <div class="carousel-caption">
+                        <b>Treasure Map</b>
+                        <br>
+                        Similar to Duolingo, we implemented a treasure map so participants can see how far they have progressed on the lesson. Although it's cutoff in 
+                        this screenshot, users can scroll down to see the full map.
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="../images/projects/code_org/phase 1/15 - activity complete.png" alt="Slide 15">
+                    <div class="carousel-caption">
+                        <b>From Web to Mobile</b>
+                        <br>
+                        Much of the workflow was also adapted onto the mobile experience, like this congratulations message after the user completes an activity.
+                    </div>
+                </div>
+        
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+                <div class="carousel-counter" id="counter">1</div>
+            </div>
+
+            <br><br>
+            <h5>Phase 2.1 Research and Design</h5>
+            <h6>Interviews</h6>
+            <p>
+                The goal of this phase of research was to test our prototype and make significant changes based on client and user feedback 
+                through qualitative user interviews. We closely observed user interactions with the application prototype. Participants 
+                explored the designed app's features and UI elements, allowing us to deeply understand thoughts, preferences, usability, 
+                strengths, and areas for improvement. Open-ended interviews gathered valuable qualitative data about impressions, likes, and 
+                dislikes, guiding efforts to enhance user-friendliness.
+
+                <br><br>
+
+                Our main areas of focus:
+                <ul>
+                    <li>
+                        Test out our primary navigation.
+                    </li>
+                    <li>
+                        How the web translated to mobile; from AI for Oceans to new features like the playground. 
+                    </li>
+                    <li>
+                        If it was intuitive to all; ensure that the language was appropriate for kids in 2nd-8th graders.
+                    </li>
+                    <li>
+                        Verify UI elements and placement were appropriate for the screen positioning (e.g. vertical scrolling, light bulb icon, etc).
+                    </li>
+                    <li>
+                        Directions and tutorial - how kids use them vs what we thought they would do.
+                    </li>
+                    <li>
+                        Star system/gamification techniques - did it match what kids wanted and what they expected.
+                    </li>
+                    <li>
+                        If it was an immersive experience where kids had full control. Would they rather be guided?
+                    </li>
+                    <li>
+                        Verify the avatar and closet match what kids want/expect.
+                    </li>
+                </ul>
+
+            </p>
+            <br>
+            <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase2_1_logistics.png"/>
+
+            <br><br>
+            <h6>Synthesis</h6>
+            <p>
+                We synthesized the findings to find the current strengths and weaknesses of our prototype. We focused on:
+                <ul>
+                    <li>
+                        Whether the prototype was intuitive and where they got stuck
+                    </li>
+                    <li>
+                        Users' opinions about the home screen
+                    </li>
+                    <li>
+                        Reward system
+                    </li>
+                    <li>
+                        Exploration aspects (the Playground)
+                    </li>
+                    <li>
+                        Connecting CS concepts with other fields of interest (Explore articles)
+                    </li>
+                    <li>
+                        The keyboard functionality
+                    </li>
+                </ul>
+
+                The way we synthesized our data was similar to Phase 1. However, in this phase, we sorted quotes from our interviews based on 
+                the section of our prototype. This way, we were able to target exactly where we needed to adjust our prototype. We also peer 
+                reviewed every transcript to ensure that we got a holistic interpretation of the quotes highlighted.
+            </p>
+
+            <br>
+            <h6>Findings</h6>
+            <table id="code_phase2_findings">
+                <tr>
+                    <td>
+                        <p>Phase 1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase1_placement.png"/>
+                        <hr>
+                        <p>Phase 2.1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase2_placement.png"/>
+                    </td>
+                    <td>
+                        <b>Clearer Wording</b>
+                        <br>
+                        Participants weren’t sure what a placement test was, so we adjusted the wording to make it clearer. Important information 
+                        is bolded and in a separate color to make it stand out.
+                        <br><br>
+                        <b>Accessibility Reader</b>
+                        <br>
+                        Throughout the application, this icon is available for users to tap.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Phase 1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase1_test.png"/>
+                        <hr>
+                        <p>Phase 2.1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase2_test.png"/>
+                    </td>
+                    <td>
+                        <b>Visual Questions</b>
+                        <br>
+                        Similar to how Code.org asks their questions, we opted for a more visual approach on how the questions were delivered.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Phase 1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase1_stars.png"/>
+                        <hr>
+                        <p>Phase 2.1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase2_stars.png"/>
+                    </td>
+                    <td>
+                        <b>Description of Stars</b>
+                        <br>
+                        This is where users are first introduced to stars, so we gave a brief description of where and how they can be used.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Phase 1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase1_home.png"/>
+                        <hr>
+                        <p>Phase 2.1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase2_home.png"/>
+                    </td>
+                    <td>
+                        <b>Streaks</b>
+                        <br>
+                        Per client’s request (and additional support from initial research) we added streaks to increase user motivation to 
+                        consistently engage with the app and its contents.
+                        <br><br>
+                        <b>Help Icon</b>
+                        <br>
+                        All help functionalities are in one place for users to access throughout the app.
+                        <br><br>
+                        <b>Topics Scroll</b>
+                        <br>
+                        Opted for a more focused view to avoid information overload. Added progress bars for transparency.
+                        <br><br>
+                        <b>Vertical scroll is now intuitive</b>
+                        <br>
+                        Moved up content so that it shows above the nav bar. With this added feature, users understood that they could vertically 
+                        scroll.
+                        <br><br>
+                        <b>Navigation Bar</b>
+                        <br>
+                        New version is seamless, yet distinguishable. All icons are labeled. Larger area to click on in the prototype.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Phase 1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase1_lesson.png"/>
+                        <hr>
+                        <p>Phase 2.1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase2_lesson.png"/>
+                    </td>
+                    <td>
+                        <b>Connections</b>
+                        <br>
+                        Every lesson has a progress bar to show individual progress. Dotted line visually shows where users could go. Similar to the 
+                        dotted line in the activity path page.
+                        <br><br>
+                        <b>Breadcrumbs</b>
+                        <br>
+                        At the top of each heading, there's a path that shows the user how they got to that certain screen. This gives them clarification 
+                        on where they are within the app and how they can navigate to other parts.
+                        <br><br>
+                        <b>Topic Description</b>
+                        <br>
+                        Every topic has a brief description of what the activities are about.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Phase 1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase1_map.png"/>
+                        <hr>
+                        <p>Phase 2.1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase2_map.png"/>
+                    </td>
+                    <td>
+                        <b>Need more space!</b>
+                        <br>
+                        Decreased the size of circles and numbers so that it more can be seen at once. Moved the legend to the bottom of screen.
+                        <br><br>
+                        <b>Continuity</b>
+                        <br>
+                        Added a progress bar at the top of the screen for additional information.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Phase 2.1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase2_playground_tuts.png"/>
+                    </td>
+                    <td>
+                        <b>Tutorials in the Playground</b>
+                        <br>
+                        The playground has a tutorial to get started. It doesn’t tell the user what they should create, and instead lets them 
+                        know how to use the elements on the screen.
+                        <br><br>
+                        <b>Tutorial Design</b>
+                        <br>
+                        The tutorials have counters and screen readers for accessibility.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Phase 2.1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase2_article.png"/>
+                    </td>
+                    <td>
+                        <b>Tackle Different Learning Types</b>
+                        <br>
+                        <ul>
+                            <li>Article summary - for those that want a quick read on what the article is about</li>
+                            <li>Video - summary of the article with animations and engaging visuals (also includes transcript to follow along)</li>
+                            <li>Audio - Article can be read out loud using the screen reader</li>
+                            <li>Kinesthetic - AI for Oceans activity helps users to understand the material with a hands-on activity</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Phase 2.1</p>
+                        <img class="img-fluid" src="../images/projects/code_org/phase 2_1/phase2_article_qs.png"/>
+                    </td>
+                    <td>
+                        <b>Article Questions</b>
+                        <br>
+                        Used to keep users engaged with the material and to ensure they understand the material.
+                    </td>
+                </tr>
+            </table>
+
+            <br><br>
+            <h5>Phase 2.2 Research and Design</h5>
+            <h6>Interviews</h6>
+            <p>
+                Our primary goal was to test several interventions throughout the application at the “10K-ft” level. These included: 
+                <ul>
+                    <li>
+                        Addressing the main navigation to be more intuitive
+                    </li>
+                    <li>
+                        Improving on existing UI elements for directions and tutorials to include counters
+                    </li>
+                    <li>
+                        Making the visual language of the application more consistent
+                    </li>
+                    <li>
+                        Adding a trashcan into the main activity
+                    </li>
+                    <li>
+                        Mirroring Minecraft with a more interactive tutorial for personal projects.
+                    </li>
+                </ul>
+
+                We continued to learn how participants would utilize the application, including what their user pathway would be and any 
+                common questions or pain points that might appear throughout the application. By focusing more on the functionality of the 
+                application at the 10K-ft level, we can make actionable recommendations to the client and allow them to focus more on 
+                10-ft details like content and color.
+            </p>
+            <br>
+            <img class="img-fluid" src="../images/projects/code_org/phase2_2/phase2_2_logistics.png"/>
+
+            <br><br>
+            <h6>Synthesis</h6>
+            <p>
+                We used the same process as our Phase 2.1 synthesis. Overall, our analysis illustrated a positive interaction between the 
+                participants and the application, and most of the functionality seemed to flow. While we had our own limits within the 
+                prototype that participants noted, they did not seem to find large changes that would need to be acted upon.
+            </p>
+
+            <br>
+            <h6>Findings</h6>
+            <p>
+                Most of our participants really like sports and video games, and we suggest adding more articles about how computer science 
+                impacts sports and video games.
+
+                <br><br>
+
+                In the previous round of interview, there were suggestions about adding more languages to the read-out-loud function, but in 
+                this round, none of the participants were fluent in other languages. Therefore, additional research into how bilingual 
+                speakers would want to use the application should be done.
+
+                <br><br>
+
+                Similar suggestions were given about the instructions, as we may want to implement language options to users who prefer 
+                instructions in different languages.
+
+                <br><br>
+
+                In the playground, while some participants wanted to be able to make changes to project examples, others didn't want to 
+                because they worried that they would mess it up. To meet their needs, we can give them an option to copy the project examples 
+                and make changes without changing the original work.
+
+                <br><br>
+
+                The other challenge that some participants faced was the reading part of the article. We could consider giving them an option 
+                to adjust the size of the texts to enhance user experience and accessibility.
+
+                <br><br>
+
+                Additionally, participants were sometimes confused about how to delete a project. We added a trash can to address this issue.
+            </p>
+
+            <br>
+            <h5>Future Iterations</h5>
+            <h6>Streaks</h6>
+            <p>
+                We would like to further flesh out how streaks would work throughout the participant experience. While participants 
+                self-reference Duolingo's streaks of 10 days, other numbers ranging from 5 to 20 days were mentioned. We also would recommend 
+                identifying a balance to what part of the experience is used to count as a streak.
+            </p>
+
+            <br>
+            <h6>Sharing with Friends</h6>
+            <p>
+                In the playground section, participants noted how they would want to share the projects they make. Parents and kids do note the 
+                anxiety and worry around online communications with potential strangers, and even sharing a project could be problematic. If 
+                there were a sharing feature within the application, it would need to ensure the safety and privacy of the user, whilst also 
+                making sure that the shared project is appropriate. Code.org could do a workaround of this by offering a submission process where 
+                they evaluate projects and offer to showcase a certain number of projects a month for other end users to see and use as a template. 
+
+                <br><br>
+
+                Adding a notice, via a modal or button, about saving the project should also be incorporated into the design for extra transparency.                
+            </p>
+
+            <br>
+            <h6>Automatic Vertical Scrolling</h6>
+            <p>
+                Because of the horizontal layout of the application, we didn't have a lot of vertical space to work with. We weren't able to fully 
+                outline how longer instructions or blocks of code would fit within the screen. In both areas we would encourage using a vertical 
+                scroll component, as this is consistent with navigation on the application. Allowing the sections to autoscroll when users run code 
+                would also highlight the importance of debugging in block-based coding. When users run their code, they can see exactly where the 
+                animation is within the code and make changes faster and easier. 
+            </p>
+
+            <br>
+            <h6>Text-based Coding</h6>
+            <p>
+                After completing the main coding activities, users see a popup that shows their block-based code converted into text-based. 
+                Participants generally indicated that they would want to learn text-based coding, and we would encourage Code.org to look at how they 
+                might leverage this design to implement it. This could be achieved with the same look and feel, but instead of blocks, participants 
+                could be presented with a word bank that they would drag and organize in the workspace appropriately.
+            </p>
+
+            <br>
+            <h6>Specialty Skins for Purchase</h6>
+            <p>
+                As participants have been vocal about enjoying the opportunity to customize their avatars and projects, Code.org could elevate 
+                partnerships with other organizations by offering specialty skins for users to purchase with in-game rewards, similar to Fortnight. 
+                Even for the main activity with Angry Birds, Code.org can incorporate other birds, pigs, and creatures from that franchise within 
+                their lesson plan and in the avatar customization.
+            </p>
+
+            <br>
+            <h6>Dynamic Avatars</h6>
+            <p>
+                Due to the static assets we were provided with, we were not able to make the user's selected avatar more dynamic as we had originally 
+                hoped. We encourage our client to incorporate avatars more throughout the application and user experience.
+            </p>
+
+            <br>
+            <h6>Additional Languages</h6>
+            <p>
+                Some of our participants were multilingual, and brought up the possibility of having multiple languages integrated into the UI. A 
+                participant expressed that they would like the audio to be one language, and the written text in another. Code.org could look into how 
+                end users could quickly change the audio and visual language of the application independently. Additionally, some more research should 
+                be done to verify if custom controls at a more micro level would be appropriate.
+            </p>
+
+            <br>
+            <h6>Conduct Research with more Targeted Demographics</h6>
+            <p>
+                One of the objectives of this application is for it to be used in lower-income regions including Africa, Latin America, and India. 
+                Unfortunately, due to the timeframe and resources given, we were not able to interview students from these regions, and instead would 
+                encourage our client to conduct research within those populations and identify any specific needs that were not addressed within the 
+                prototype.
+            </p>
+
+            <br>
+            <h5>Conclusion</h5>
+            <p>
+                Code.org on the Go is a user-friendly application that encourages young students to explore computer science through a mobile 
+                version of the CSF Express curriculum on Code.org's website. Our prototype is a proof-of-concept that successfully migrated the 
+                web curriculum into mobile whilst keeping the gameplay the same and adding features that would encourage new users to start.
+
+                <br><br>
+
+                Based on the findings from the six months of research, synthesis, and insights, we answered our initial guiding questions and 
+                addressed each of our goals for the prototype.
+
+                <table id="conclusion">
+                    <thead>
+                        <tr>
+                            <th>Goal</th>
+                            <th>Code.org on the Go</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>
+                            <b>Guiding Question #1:</b> How might we provide instruction in multiple forms through gamification to encourage different 
+                            types of users to progress through the material?
+                        </td>
+                        <td>
+                            The main instruction is delivered through the main activities. To encourage users to complete activities consistently, 
+                            we introduced streaks. Our qualitative research and literature review showed that streaks motivated users to continue 
+                            using the app for longer periods of time. However, we would encourage there to be additional user testing to identify 
+                            best practices for streaks.
+
+                            <br><br>
+
+                            We also implemented a reward-based system by providing users with stars any time they complete an activity. Stars can 
+                            be used to customize their avatar in their profile to tailor the app to the individual. There was strong evidence from 
+                            our competitive analysis (which was later supported by our own qualitative research) that showed that providing rewards 
+                            encourages users to continue using the app.
+
+                            <br><br>
+
+                            In terms of instruction delivery, the Explore section of our prototype provides the content through multiple forms to 
+                            ensure that users of all learning styles are able to grasp the material thoroughly. Articles are shown in video, audio, 
+                            and kinesthetic format. Most forms of instruction within the app can be read outloud using the screen reader. Note that 
+                            because this wasn't defined within our client's project scope, we did not flesh out this functionality.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Guiding Question #2:</b> How might we ensure that the application provides personalized learning experiences to meet the 
+                            unique needs of each user, and help them achieve their learning goals effectively?
+                        </td>
+                        <td>
+                            To address the varying proficiency levels of each user, we incorporated a decision tree upon opening the app for the first 
+                            time. The decision tree helped to tailor the curriculum to multiple CS backgrounds while still keeping the freedom of 
+                            attempting every activity. When signing up, users have the option to take a skills test to test out of some of the easier 
+                            activities in the curriculum. This helps to tailor the curriculum to the user's coding proficiency level. Additionally, 
+                            users can test out of a topic by passing a short test on the topic. This ensures that users can accelerate their learning 
+                            without missing out on important concepts.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Guiding Question #3:</b> How might we encourage users to explore diverse topics and subject areas beyond their current 
+                            interests and skill levels, and help them discover new areas of knowledge and expertise?
+                        </td>
+                        <td>
+                            The Explore section was designed specifically to tackle this question. We took some of the interests that participants 
+                            mentioned in our first phase of research and added them as articles within this section. The purpose of this was to connect 
+                            participants' interests with CS concepts in the hope that more users could connect with the material easier.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Keep the essence of the client's website the same.
+                        </td>
+                        <td>
+                            The CSF Express curriculum is designed to be a free-roam experience for users of all experience levels. We kept this level of 
+                            freedom by letting users have the choice to select any activity they'd like. While there are some guides on where users could 
+                            go, they don't restrict the user from selecting any part of the app.
+
+                            <br><br>
+
+                            For the main coding activities, we kept the same drag-and-drop functionality in the mobile prototype. It was important to keep 
+                            this seamless between the website and the mobile app so that it was easy for users to transition between the two.                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Encourage user creativity through block-based coding.
+                        </td>
+                        <td>
+                            The Playground section was designed in a way to encourage users to create whatever they'd like through the block-based coding 
+                            functionality. We expanded upon the end-of-course project within the CSF Express curriculum by including project examples for 
+                            inspiration. However, in our prototype, users can save their projects, and can make as many as they'd like without being 
+                            restricted to one theme.
+                        </td>
+                    </tr>
+                </table>
+            </p>
+
+            <br>
+            <h5>Impact</h5>
+            <p>
+                Our prototype incorporated a space for children to have the freedom to create, and attempted to connect a vast variety of 
+                common interests with computer science to pique their interest. With streaks and stars, children showed interest in using the 
+                application consistently. In addition to these changes, we kept the essence of the CSF Express gameplay and ensured that the 
+                UI was intuitive for both experienced and new users. We believe that this application will help our client connect with a wider 
+                audience and get more students interested and involved in computer science.
+            </p>
+
+            <br>
+            <h5>Reflection</h5>
+            <p>
+                This project spanned across six months, and there was a lot to accomplish within that time frame. All communication was done via 
+                Slack, and I ensured that our team knew exactly what we were doing each week, what needed to be done, and why. We met through 
+                Zoom twice a week to go over progress on different aspects of the project and to make sure that everyone was aware of what was 
+                happening. I used waterfall timelines to detail when each phase of the project should be completed in order to present our research 
+                to our clients on time. During team meetings, I reiterated things to complete by the end of that week and what to expect by our 
+                next meeting. This information was also sent in our Slack channel at the end of each meeting.
+
+                <br><br>
+
+                I also managed regular and transparent communication between our team and our client, who we met online bi-weekly, to ensure that 
+                our work was meeting our stakeholder's expectations. Any concerns or feedback we had throughout the project were brought up in a 
+                timely manner and were addressed immediately. In terms of the softwares we used, I corresponded with our program administrators to 
+                get proper licenses for the software we were using.
+
+                <br><br>
+                
+                I made sure that all documentation was properly recorded in a shared Google Drive folder. I maintained a comprehensive, detailed, and 
+                up-to-date documentation of our project plans. Everything was organized properly and was easily accessible on all forms of communication.
+
+                <br><br>
+                
+                All project milestones were delivered on time consistently, thanks to our prioritization of project goals. This was a struggle for me at 
+                first. Oftentimes, I would inaccurately estimate how long a part of the project was going to take, and this led to a fluctuating timeline. 
+                However, as I learned more about the logistics of each phase of research and design, I was able to tighten the schedule and make our 
+                timeline more efficient and reliable.
+
+                <br><br>
+                
+                Delegation was also something that I initially struggled with but gradually improved. I knew my team members' backgrounds and areas of 
+                expertise, so I knew who could successfully do what. However, because this was a graduate program, I debated the idea of having the entire 
+                team participate in each phase of the project so that everyone could get experience in each area. The biggest downside to this was that we 
+                needed to set a longer timeframe for each phase of the project to account for learning curves. After some feedback from my team, I learned 
+                that I needed to prioritize the project deadlines first, and to delegate roles based on everyone's prior experience and skills. This 
+                significantly improved team efficiency, and we were able to deliver our project milestones easier. 
+
+                <br><br>
+                
+                As I reflect on my experience as a Project Manager, I feel a sense of accomplishment and personal growth. I would say that my biggest 
+                strengths as a PM were administrative work and time management, and my biggest weakness was delegation of project responsibilities. From the 
+                way our work was divided, I contributed significantly to the design and research portion of the project on top of my responsibilities as a 
+                PM. While that may not be how a traditional PM role looks like, I was glad that I could contribute to the core elements of our project and be 
+                a reliable team player.
+
+                <br><br>
+                
+                This experience has imparted valuable lessons about project management, teamwork, and communication. Looking ahead, I aim to further enhance 
+                my leadership skills and continue refining my delegation abilities to become an even more effective guide for future teams.
+            </p>
+
+            <br>
+            <h5>A Message from Code.org</h5>
+            <br>
+            <p class="quote" style="width: 75%;">
+                "We could not have asked for a better team to help Code.org explore the world of mobile. Aditi, John, Emily, Hazel, and Nika took their role 
+                and our mission seriously. Their work will help inform and guide us as we continue to find new and innovative ways to expand our audience and 
+                the possibilities of computer science education." 
+                <br><br>
+                - Mark Barrett, Principal Product Designer
+
+                <br><br><br>
+
+                "Great work on the project team. You exemplified iterative development, stayed user-focused, and developed innovative approaches to address 
+                uncharted territory. The classroom model is undergoing a dramatic shift as mobile & self-paced resources become increasingly more important 
+                vectors to empower global learning & adoption. Your project lays the groundwork to enable Computer Science education globally, and I’m eager to 
+                see the progression of not only this app, but also your careers as you take your project, learnings, and skills into the real world. Thank you 
+                again for all of your hard work and wishing you the best on behalf of all us here @Code.org."
+                <br><br>
+                - Ali Vira, Sr. Product Manager
+                <br>
+                Mark Barrett, Principal Product Designer
+            </p>
+
+            <br><br>
+            <p class="team_members">Aditi Kisara | Emily Nugent | Hazel Zhou | John Nolan-Moso | Nika Niksefat</p>
+            
+        <!-- End of Main Content div-->    
+        </div>
+    </div>
+
+    <script src="../carousel.js"></script>
+</body>
+</html>

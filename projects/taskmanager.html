@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aditi Kisara - Projects - Task Manager</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../css/individual_project.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Nav -->
+    <div class="row container-fluid" id="header_nav">
+        <div class="col-3">
+            <p><a href="../index.html">Home</a></p>
+        </div>
+        <div class="col-3">
+            <p><u>Projects</u></p>
+        </div>
+        <div class="col-3">
+            <p><a href="../resume.html">Resume</a></p>
+        </div>
+        <div class="col-3">
+            <p><a href="../about.html">About</a></p>
+        </div>
+    </div>
+
+    <hr style="width: 90%; margin: auto; color: rgb(150, 150, 150)">
+
+    <!-- Project Selection Sidebar -->
+    <div class="row container-fluid">
+        <div class="col-sm-2 container-fluid" id="sidebar">
+            <div class="row project_options">
+                <a href="code.html">Code.org on the Go</a>
+            </div>
+                
+            <div class="row project_options">
+                <a href="reversi.html">Reversi</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="ikea.html">IKEA User Experience Evaluation</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="hearmeout.html">Hear Me Out</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="savable.html">Savable</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="carebot.html">Carebot</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="comm.html">Community Services App</a>
+            </div>
+        
+            <div class="row project_options" id="selected">
+                <a href="taskmanager.html">Task Manager</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="cow.html">Cow Detection Software</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="hangman.html">Hangman</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="ttt.html">Tic-Tac-Toe</a>
+            </div> 
+        </div>
+
+        <!-- Main Content -->
+        <div class="col container-fluid" id="content">
+            <h3 id="title">Task Manager</h3>
+            <p id="subtitle"><i>A Kanban-inspired board</i></p>
+            <img class="img-fluid main_img" src="../images/homepage/task_home.png"/>
+            <br>
+            <div class="row">
+                <div class="col" style="margin: 10px 10px 10px 0px;">
+                    <h5>My Role(s)</h5>
+                    <p>
+                        Full-Stack Developer
+                    </p>
+                </div>
+                <div class="col" style="margin: 10px 0px 10px 10px;">
+                    <h5>External Links</h5>
+                    <a href="https://github.com/aditikisara/Collaborated-Projects" 
+                        class="external_links"
+                        target="_blank" 
+                        rel="noopener noreferrer">
+                        <p>GitHub Repository</p>
+                    </a>
+                </div>
+            </div>
+
+            <br>
+            <h5>Introduction</h5>
+            <p>
+                My team and I created a real-time, collaborative task manager that's modeled after a Kanban board. We used HTML and CSS to create the 
+                basic layout of the document. We then used Flask in Python to create the functionality, and SQLite to maintain databases of each board 
+                and the members joining in each board. To first create a board, the user writes down their username, the name of their board, and sets 
+                a password for the board. This unique set of information is used by other users to join the same board. Within each board, users can 
+                create tasks and mark them as "In-Progress" or "Completed". They also have the option to write notes on the bottom or clear all of the 
+                tasks.
+
+                <br><br>
+
+                In future iterations, we would like to have users input the usernames of the people that are allowed in a board to make the app more 
+                secure. Any time a user logs in, the information entered will be checked with our existing database. If the user is listed with the 
+                board they specified in the database, then they will be allowed to enter the board. If not, then an error message would pop up.
+
+                I would also like to change the layout of the board and adjust the color palette. Some things are hard to read due to the lack of 
+                contrast, and the colors are not necessarily ADA compliant. Currently, users need to click on a task to move it to the next column. 
+                However, I'd like to make this functionality a drag-and-drop instead to give users more control over where their tasks go.
+            </p>
+
+            <br>
+            <h5>Demo</h5>
+            <p>
+                Here's a video that shows this code in action! The code for this is also in my GitHub.
+
+                <br><br>
+
+                I use two separate accounts to log in. The first one shows what a new user would see when they first created a board. The second account 
+                is an existing account in our database to show that the tasks created earlier would appear when the user logs back in.
+
+                <br><br>
+
+                <iframe 
+                    src="https://www.youtube-nocookie.com/embed/ZRP6-l7v8cg?si=KkRzanB5sNQKb9I9"
+                    id="demo_video" 
+                    width="560" 
+                    height="315" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </p>
+            
+            <br><br>
+            <p class="team_members">
+                Due to difficulties in retrieving records, I'm unable to provide specific names of my team members. However, I would like to acknowledge and 
+                express my gratitude to everyone who contributed to the success of this project. - Aditi Kisara
+            </p>
+        
+        <!-- End of Main Content div-->    
+        </div>
+    </div>
+</body>
+</html>

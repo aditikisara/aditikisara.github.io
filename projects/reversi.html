@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aditi Kisara - Projects - Reversi</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../css/individual_project.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Nav -->
+    <div class="row container-fluid" id="header_nav">
+        <div class="col-3">
+            <p><a href="../index.html">Home</a></p>
+        </div>
+        <div class="col-3">
+            <p><u>Projects</u></p>
+        </div>
+        <div class="col-3">
+            <p><a href="../resume.html">Resume</a></p>
+        </div>
+        <div class="col-3">
+            <p><a href="../about.html">About</a></p>
+        </div>
+    </div>
+
+    <hr style="width: 90%; margin: auto; color: rgb(150, 150, 150)">
+
+    <!-- Project Selection Sidebar -->
+    <div class="row container-fluid">
+        <div class="col-sm-2 container-fluid" id="sidebar">
+            <div class="row project_options">
+                <a href="code.html">Code.org on the Go</a>
+            </div>
+                
+            <div class="row project_options" id="selected">
+                <a href="reversi.html">Reversi</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="ikea.html">IKEA User Experience Evaluation</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="hearmeout.html">Hear Me Out</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="savable.html">Savable</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="carebot.html">Carebot</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="comm.html">Community Services App</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="taskmanager.html">Task Manager</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="cow.html">Cow Detection Software</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="hangman.html">Hangman</a>
+            </div>
+        
+            <div class="row project_options">
+                <a href="ttt.html">Tic-Tac-Toe</a>
+            </div> 
+        </div>
+
+        <!-- Main Content -->
+        <div class="col container-fluid" id="content">
+            <h3 id="title">Reversi</h3>
+            <p id="subtitle"><i>A recreation of Reversi (Othello) on the web</i></p>
+            <img class="img-fluid main_img" src="../images/homepage/reversi_home.png"/>
+            <br>
+            <div class="row">
+                <div class="col" style="margin: 10px 10px 10px 0px;">
+                    <h5>My Role(s)</h5>
+                    <p>
+                        Full-Stack Developer
+                    </p>
+                </div>
+                <div class="col" style="margin: 10px 0px 10px 10px;">
+                    <h5>External Links</h5>
+                    <a href="https://github.com/aditikisara/IN4MATX285-Reversi" 
+                        class="external_links"
+                        target="_blank" 
+                        rel="noopener noreferrer">
+                        <p>GitHub Repository</p>
+                    </a>
+                    <a href="https://reversi-285.herokuapp.com"
+                        class="external_links"
+                        target="_blank" 
+                        rel="noopener noreferrer">
+                        <p>Play my version of Reversi!</p>
+                    </a>
+                </div>
+            </div>
+
+            <br>
+            <h5>Introduction</h5>
+            <p>
+                Reversi is a board game played by two players on an 8x8 board. Each player is assigned a different colored token and they take turns by 
+                placing their token on the board. During a play, if any of the opponent's tokens are in a straight line and bounded by the current 
+                player's tokens on either end, then the tokens in that line switch to the current player's token color. Whoever has the most tokens on 
+                the board when the last playable square is filled wins.
+
+                <br><br>
+
+                There are three main aspects of the website: The home page, the lobby, and the game itself. The home page is where users enter their 
+                username and join a lobby. The lobby page is where users can chat with other members of the lobby in real time. They can invite people 
+                from the lobby to start a game, and when they do, they're directed to the game page. This is where the main game occurs, and both players 
+                take turns placing tokens on the board. This board updates in real-time for both users.
+
+                <br><br>
+                
+                You can play my version of Reversi too! Use two separate tabs to play as different people, or share it with someone and play against them!                
+            </p>
+
+            <br>
+            <h5>Overview of Files and Technologies Used</h5>
+            <p>
+                The following diagram shows the breakdown of the technologies used and the file system I had when coding this game. Overall, I used the 
+                standard HTML and CSS to provide the layout and general styling of the elements on the page. JavaScript was used to program the interactivity 
+                between these elements. I used Heroku to upload and run my application in the cloud.                
+            </p>
+            <img class="img-fluid" src="../images/projects/reversi/tech_used.png">
+
+            <br>
+            <h5>Analysis</h5>
+            <h6>The Home Page</h6>
+            <p>Users are directed to this page when they first visit the site.</p>
+            <img class="img-fluid reversi_analysis_img" src="../images/projects/reversi/homescreen_collapsed.png"/>
+            <br>
+
+            <table class="reversi_analysis">
+                <thead class="reversi_heading">
+                    <th>The Good</th>
+                    <th>The Bad</th>
+                </thead>
+                <tr>
+                    <td>
+                        <b class="reversi_good">Rules are shown in the home page.</b> Users can understand how to play the game before actually committing to it.
+                        <br><br>
+                        <b class="reversi_good">Clean aesthetic.</b> Warm tones are inviting.
+                    </td>
+                    <td>
+                        <b class="reversi_bad">Buttons look different on top (inconsistency).</b> However, this could be a version of a secondary button.
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <h6>The Lobby</h6>
+            <p>When users enter their name, they join the lobby. When multiple people join the lobby, they can chat and invite another player to start a game.</p>
+            <img class="img-fluid reversi_analysis_img" src="../images/projects/reversi/lobby.png"/>
+            <br>
+
+            <table class="reversi_analysis">
+                <thead class="reversi_heading">
+                    <th>The Good</th>
+                    <th>The Bad</th>
+                </thead>
+                <tr>
+                    <td>
+                        <b class="reversi_good">Good color contrast between the messages and the background.</b>
+                    </td>
+                    <td>
+                        <b class="reversi_bad">Invite button is hard to read on the white background.</b> Change it to a darker yellow or make the text black instead.
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <h6>The Game Page</h6>
+            <p>When two players agree to play a game, the leave the lobby and join a game. When the user leaves the page, they join their lobby again.</p>
+            <img class="img-fluid reversi_analysis_img" src="../images/projects/reversi/game.png"/>
+            <br>
+
+            <table class="reversi_analysis">
+                <thead class="reversi_heading">
+                    <th>The Good</th>
+                    <th>The Bad</th>
+                </thead>
+                <tr>
+                    <td>
+                        <b class="reversi_good">Only the legal moves show the hover state.</b> This gives players a visual indication of what moves are allowed.
+                        <br><br>
+                        <b class="reversi_good">The green circle around the token shows the players whose turn it is.</b> Another visual indicator other than text to reinforce turn-taking.
+                        <br><br>
+                        <b class="reversi_good">Animated progress bar and timer show how much time has passed.</b> It provides users with the text and visual information needed to make a move.
+                    </td>
+                    <td>
+                        <b class="reversi_bad">Have a place on this page when players can access the rules.</b>  This way, users don't need to leave the entire game in order to know how to play.
+                        <br><br>
+                        <b class="reversi_bad">Player doesn't switch when the timer runs out.</b> The timer instills a state of urgency within the players during their turn. However, there are 
+                                                no consequences for the timer running out. Switching the player's turn automatically reinforces the need and purpose of the timer.
+                        <br><br>
+                        <b class="reversi_bad">Bad contrast between the timer and the progress bar.</b> Change the text to white for better readability.
+                        <br><br>
+                        <b class="reversi_bad">Need smoother graphics.</b> Smoother graphics make the site look cleaner and well put-together. Using higher resolution gifs can give this effect.
+                        <br><br>
+                        <b class="reversi_bad">Other than the visual progress bar of the timer, there are no indications for when it's the player's turn.</b> There could be some audio feedback or 
+                                                a visual indicator of when a player places their token and when the timer runs out.
+                        <br><br>
+                        <b class="reversi_bad">When the game is over, the timer still runs.</b> Stop the timer when the game is over, and design the Game Over text to be more celebratory so that 
+                                                it's easier for users to identify the end of the game.
+                        <br><br>
+                        <b class="reversi_bad">The timer doesn't show until the progress bar loads over it.</b> Either put it above the progress bar or show it consistently within the progress bar.
+                        <br><br>
+                        <b class="reversi_bad">If two users want to play another game, they have to enter the lobby and invite each other to play.</b> Adding a "New Game" functionality within the 
+                                                game page will expidite this process.
+                        <br><br>
+                        <b class="reversi_bad">The opponent's username doesn't show in the game.</b> The opponent's username can show over their respective token for added clarity.
+                    </td>
+                </tr>
+            </table>
+
+            <br><br>
+            <h5>Reflection</h5>
+            <p>
+                Overall, this is a good online version of the game, but there are many improvements that could be made to streamline the user experience. There 
+                are many instances where the color contrast of two elements can be increased for enhanced readability. I also had some trouble with the code when 
+                it came to the game board. I wanted to write down the opponent's name on each player's screen, but I couldn't figure out an easy way to do that. 
+                There's a few “loose ends” that I didn't tie, as seen through my analysis. Things like the issues with the timer or visual user feedback are 
+                things that I want to fix in the future.
+            </p>
+
+            <br><br>
+            <p class="team_members">Aditi Kisara</p>
+
+        <!-- End of Main Content div-->    
+        </div>
+    </div>
+</body>
+</html>

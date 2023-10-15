@@ -1,0 +1,314 @@
+/* Stylesheet for projects.html */
+/*
+div {
+    border: 1px solid lightblue;
+}
+*/
+#header_nav{
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#header_nav a {
+    color: black;
+    text-decoration: none;
+}
+
+#header_nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.project_options {
+    height: auto;
+    width: auto;
+    padding-left: 50px;
+}
+
+.project_options a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.project_options:hover, .project_options a:hover {
+    background-color: #31025E;
+    color: white;
+    font-weight: bold;
+}
+
+#sidebar {
+    min-width: 300px;
+}
+
+#selected, #selected a {
+    background-color: #31025E;
+    color: white;
+    font-weight: bold;
+}
+
+#content {
+    padding: 20px 30px;
+    overflow-y: scroll;
+}
+
+.main_img {
+    height: 200px;
+    width: auto;
+}
+
+#title, #subtitle {
+    text-align: center;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+h6 {
+    font-weight: bold;
+    color: #674ea7;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: auto;
+}
+
+ol, ul {
+    line-height: 200%;
+}
+
+#comp_analysis {
+    border: 1px solid #31025E;
+}
+
+#main_table_heading {
+    background-color: #31025E;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+}
+
+.table_subheading {
+    background-color: #4d1a7c;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+}
+
+#comp_analysis img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.competitors {
+    margin: auto;
+    text-align: center;
+}
+
+#comp_analysis tr, #comp_analysis tr>td {
+    border: 1px solid #31025E;
+    padding: 10px;
+}
+
+.findings {
+    border: 2px solid #00ACBC;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+#guiding_qs {
+    height: auto;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#conclusion thead {
+    background-color: #31025E;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    border: 1px solid #31025E;
+}
+
+#conclusion td {
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px;
+}
+
+#demo_video {
+    display: block;
+    margin: auto;
+}
+
+.coded_words {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.external_links, .external_links:hover {
+    color: #31025E;
+}
+
+.comm_bullets {
+    text-align: center;
+    border: 3px solid #31025E;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #31025E;
+}
+
+.comm_bullets p {
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+
+.reversi_analysis_img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #31025E;
+}
+
+.reversi_analysis, .reversi_analysis tr {
+    border: 1px solid black;
+    width: 75%;
+    margin: auto;
+}
+
+.reversi_heading th {
+    background-color: #31025E;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.reversi_analysis td {
+    border: 1px solid #31025E;
+    width: 50%;
+    padding: 10px;
+}
+
+.reversi_good {
+    color: green;
+}
+
+.reversi_bad {
+    color: darkred;
+}
+
+.hmo_infographic, .hmo_design {
+    width: 100%;
+    text-align: center;
+}
+
+.hmo_infographic td {
+    padding: 10px 20px;
+    width: 33.33%;
+}
+
+.quote {
+    width: 50%;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    margin: auto;
+    color: gray;
+}
+
+.hmo_design tr, .hmo_design td{
+    border: 1px solid #31025E;
+    padding: 10px;
+}
+
+.hmo_design th {
+    background-color: #31025E;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+#hmo_home_screens img {
+    vertical-align: top;
+}
+
+.ikea_blocks .col{
+    border: 3px solid #31025E;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.ikea_blocks p {
+    margin: auto;
+    padding: 10px;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+
+#ikea_pages td {
+    padding: 10px 30px;
+}
+
+#ikea_pages img {
+    border: 1px solid #31025E;
+}
+
+#ikea_insights {
+    border: 1px solid #31025E;
+    width: 100%;
+}
+
+#ikea_insights thead {
+    background-color: #31025E;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#ikea_insights td {
+    border: 1px solid #31025E;
+    width: 50%;
+    padding: 10px;
+}
+
+.ikea_qual_quotes {
+    font-style: italic;
+    text-align: center;
+}
+
+.team_members {
+    font-style: italic;
+    font-weight: light;
+    text-align: left;
+    color: gray;
+}
+
+#code_phase2_findings tr, #code_phase2_findings td {
+    border: 2px solid #31025E;
+    padding: 20px;
+}
+
+#code_phase2_findings img {
+    border: 1px solid #31025E;
+}
